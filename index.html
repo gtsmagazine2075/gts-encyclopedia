@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#080808" />
-  <meta name="description" content="GTS Encyclopedia — l'encyclopédie officielle du canon Homo excelsior." />
-  <title>GTS Encyclopedia</title>
+  <meta name="description" content="GTS Encyclopedia — canon officiel et moteur de connaissances de l'univers GTS." />
+  <title>GTS Encyclopedia — Sprint A2</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,55 +14,36 @@
 <body>
   <div class="app-shell">
     <aside class="sidebar" id="sidebar">
-      <div class="brand">
-        <div class="brand-mark">GTS</div>
-        <div><strong>ENCYCLOPEDIA</strong><span>CANON · 2075</span></div>
+      <button class="brand" data-view="home" aria-label="Accueil">
+        <span class="brand-mark">GTS</span>
+        <span><strong>ENCYCLOPEDIA</strong><small>CANON ENGINE · 2075</small></span>
+      </button>
+      <nav id="categoryNav" aria-label="Navigation principale"></nav>
+      <div class="sidebar-tools">
+        <button class="tool-btn" data-view="favorites"><span>☆</span> Favoris <small id="favoriteCount">0</small></button>
+        <button class="tool-btn" data-view="recent"><span>◷</span> Consultés récemment</button>
+        <button class="tool-btn" id="editorBtn"><span>⌘</span> Mode éditeur</button>
       </div>
-      <nav id="categoryNav" aria-label="Catégories"></nav>
-      <div class="sidebar-footer">SPRINT A1 · v1.0.0</div>
+      <div class="sidebar-footer"><strong>SPRINT A2</strong><span>v1.1.0 · Foundation</span></div>
     </aside>
 
     <main>
       <header class="topbar">
         <button class="icon-btn mobile-only" id="menuBtn" aria-label="Ouvrir le menu">☰</button>
-        <div class="search-wrap">
-          <span>⌕</span>
-          <input id="searchInput" type="search" placeholder="Rechercher dans le canon…" autocomplete="off" />
-          <kbd>Ctrl K</kbd>
-        </div>
+        <button class="search-launch" id="searchLaunch"><span>⌕</span><span>Rechercher dans le canon…</span><kbd>Ctrl K</kbd></button>
         <button class="icon-btn" id="themeBtn" aria-label="Changer le thème">◐</button>
       </header>
 
-      <section class="hero" id="homeView">
-        <div class="hero-copy">
-          <p class="eyebrow">ARCHIVES DU MONDE · 2075</p>
-          <h1>Standing above<br><em>the world.</em></h1>
-          <p>Explorez le canon officiel de GTS : Homo excelsior, Novagen Institute, Districts Excelsior, personnalités, technologies et institutions.</p>
-          <div class="hero-actions">
-            <button class="primary-btn" data-open-category="personnages">Explorer le canon</button>
-            <button class="secondary-btn" id="randomBtn">Fiche aléatoire</button>
-          </div>
-        </div>
-        <div class="hero-stat-card">
-          <span>POPULATION MONDIALE</span>
-          <strong>≈ 5 000</strong>
-          <small>Homo excelsior en 2075</small>
-          <div class="stat-line"><span>55</span><small>Districts Excelsior</small></div>
-          <div class="stat-line"><span>15–20 m</span><small>Taille moyenne</small></div>
-          <div class="stat-line"><span>2050</span><small>Première présentation GTS</small></div>
-        </div>
-      </section>
-
-      <section class="content-section">
-        <div class="section-head">
-          <div><p class="eyebrow" id="viewEyebrow">SÉLECTION</p><h2 id="viewTitle">Fiches essentielles</h2></div>
-          <span id="resultCount"></span>
-        </div>
-        <div class="chip-row" id="filterChips"></div>
-        <div class="card-grid" id="cardGrid"></div>
-        <div class="empty-state hidden" id="emptyState"><strong>Aucun résultat</strong><p>Essayez un autre terme ou une autre catégorie.</p></div>
-      </section>
+      <div id="appView"></div>
     </main>
+  </div>
+
+  <div class="search-overlay hidden" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Recherche globale">
+    <div class="search-backdrop" data-close-search></div>
+    <section class="search-panel">
+      <div class="search-field"><span>⌕</span><input id="searchInput" type="search" placeholder="Personnage, lieu, technologie…" autocomplete="off"/><kbd>Esc</kbd></div>
+      <div id="searchResults" class="search-results"></div>
+    </section>
   </div>
 
   <div class="modal hidden" id="detailModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
@@ -73,6 +54,7 @@
     </article>
   </div>
 
+  <div class="toast" id="toast"></div>
   <script src="data.js"></script>
   <script src="app.js"></script>
 </body>

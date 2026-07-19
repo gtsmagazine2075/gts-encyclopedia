@@ -1,29 +1,18 @@
-# GTS Encyclopedia — Sprint A1
+# GTS Encyclopedia — Sprint A2
 
-Première version complète et autonome de l’encyclopédie officielle du canon GTS.
+Version **v1.1.0 — Foundation**.
 
-## Fonctionnalités
+## Nouveautés
 
-- Accueil éditorial premium noir et or
-- Navigation par catégories
-- Recherche instantanée (`Ctrl + K`)
-- Filtres par mots-clés
-- Fiches détaillées en fenêtre modale
-- Mode sombre / clair
-- Mise en page responsive Windows, tablette et mobile
-- Déploiement statique compatible GitHub Pages et Cloudflare Pages
+- tableau de bord éditorial ;
+- recherche globale instantanée (`Ctrl + K`) ;
+- navigation par catégories et tags ;
+- fiches liées et navigation transversale ;
+- favoris et historique local ;
+- mode éditeur affichant les données structurées ;
+- interface responsive et thème clair/sombre ;
+- architecture prête pour un futur export JSON du GTS CMS.
 
-## Déploiement Cloudflare Pages
+## Publication GitHub Pages
 
-- Framework preset : `None`
-- Build command : laisser vide
-- Build output directory : `/`
-
-## Structure
-
-- `index.html` — structure de l’application
-- `styles.css` — design responsive
-- `app.js` — recherche, navigation et fiches
-- `data.js` — données canoniques intégrées
-
-Version : **A1 / 1.0.0**
+Déposer tous les fichiers à la racine du dépôt puis valider les changements. GitHub Pages republie automatiquement la branche `main`.
