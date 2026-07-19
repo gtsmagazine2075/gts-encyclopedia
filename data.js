@@ -39,107 +39,788 @@ window.GTS_DATA = [
       "novagen-institute",
       "homo-excelsior",
       "gts-therapy"
-    ]
+    ],
+    "canonId": "GTS-PER-0001",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "homo-excelsior",
     "category": "concepts",
-    "type": "Espèce",
+    "type": "Sous-espèce humaine",
     "title": "Homo excelsior",
-    "summary": "Nouvelle sous-espèce humaine issue de la GTS Therapy, composée exclusivement de femmes de 15 à 20 mètres.",
+    "summary": "Sous-espèce humaine créée par la GTS Therapy, exclusivement féminine et mesurant généralement de 15 à 20 mètres.",
     "year": 2050,
     "tags": [
       "Biologie",
-      "Société"
+      "Société",
+      "Ascension"
     ],
     "facts": {
-      "Population 2075": "≈ 5 000",
-      "Taille": "15–20 m",
-      "Répartition": "55 Districts Excelsior",
-      "Ratio": "≈ 1 pour 2 millions d’humains"
+      "Population mondiale en 2075": "≈ 5 000",
+      "Taille adulte": "15 à 20 m",
+      "Sexe compatible": "Femmes uniquement",
+      "Répartition": "55 grandes cités et Districts Excelsior",
+      "Proportion": "Environ 1 pour 2 millions d’Homo sapiens"
     },
     "sections": [
       {
-        "title": "Biologie",
-        "text": "Squelette renforcé, nouvelle architecture musculaire, cœur multichambre et métabolisme réécrit."
+        "title": "Définition",
+        "text": "Homo excelsior désigne les femmes dont la biologie a été entièrement réécrite par la Genetic Titan Sequence Therapy. Il ne s’agit pas d’un simple gigantisme, mais d’une nouvelle architecture physiologique cohérente avec leur échelle."
       },
       {
-        "title": "Statut social",
-        "text": "L’Ascension constitue la plus haute distinction du monde de 2075."
+        "title": "Caractéristiques fondamentales",
+        "items": [
+          "Squelette renforcé par un biomatériau inédit",
+          "Nouvelle architecture musculaire",
+          "Cœur multichambre et circulation adaptée",
+          "Respiration optimisée",
+          "Peau et tissus conjonctifs renforcés",
+          "Métabolisme réécrit et longévité accrue"
+        ]
+      },
+      {
+        "title": "Statut civilisationnel",
+        "text": "En 2075, l’Ascension représente la plus haute distinction accordée par la société mondiale. Les Homo excelsior constituent une nouvelle aristocratie du mérite, sans former une caste juridiquement supérieure."
       }
     ],
     "relations": [
       "gts-therapy",
+      "ascension",
       "novagen-institute",
-      "districts-excelsior"
-    ]
+      "biologie-excelsior",
+      "demographie-excelsior",
+      "districts-excelsior",
+      "reproduction-excelsior",
+      "role-strategique-excelsior",
+      "role-industriel-excelsior"
+    ],
+    "aliases": [
+      "Géantes",
+      "Giantesses"
+    ],
+    "canonId": "GTS-CON-0001",
+    "status": "canon",
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "gts-therapy",
     "category": "technologies",
-    "type": "Technologie",
+    "type": "Biotechnologie",
     "title": "GTS Therapy",
-    "subtitle": "Genetic Titan Sequence Therapy",
-    "summary": "Thérapie de réécriture biologique présentée en 2050 et attribuée au mérite.",
+    "summary": "Genetic Titan Sequence Therapy : protocole de réécriture biologique transformant une femme sélectionnée en Homo excelsior.",
     "year": 2050,
     "tags": [
       "Génétique",
-      "Médecine"
+      "Médecine",
+      "Ascension"
     ],
     "facts": {
-      "Présentation": "2050",
-      "Durée": "18 à 24 mois",
-      "Accès": "Sélection au mérite",
-      "Compatibilité": "Femmes uniquement"
+      "Nom complet": "Genetic Titan Sequence Therapy",
+      "Présentation publique": "2050",
+      "Durée du protocole": "18 à 24 mois",
+      "Accès": "Accordé au mérite, jamais vendu",
+      "Supervision": "Novagen Institute",
+      "Compatibilité masculine": "Aucune compatibilité confirmée"
     },
     "sections": [
       {
-        "title": "Protocole",
-        "text": "La thérapie transforme progressivement une Homo sapiens en Homo excelsior sous contrôle médical continu."
+        "title": "Principe",
+        "text": "La GTS Therapy réécrit progressivement l’organisme à tous les niveaux : génome fonctionnel, croissance, squelette, muscles, organes, circulation, respiration, peau, tissus conjonctifs et métabolisme."
       },
       {
-        "title": "Limites",
+        "title": "Accès",
+        "text": "L’argent ne permet pas d’acheter une Ascension. La candidate doit être choisie pour une contribution exceptionnelle à l’humanité, puis validée par les organes de gouvernance du Novagen Institute."
+      },
+      {
+        "title": "Contraintes",
         "items": [
-          "Incompatibilité physiologique masculine",
-          "Capacité annuelle limitée",
-          "Ressources biomédicales rares"
+          "Équipes médicales dédiées pendant plusieurs années",
+          "Biomatériaux rares",
+          "Infrastructure clinique gigantesque",
+          "Capacité mondiale volontairement limitée",
+          "Suivi post-Ascension permanent"
         ]
       }
     ],
     "relations": [
       "homo-excelsior",
       "novagen-institute",
+      "ascension",
+      "selection-au-merite",
+      "biologie-excelsior",
       "ascension-ring"
-    ]
+    ],
+    "subtitle": "Genetic Titan Sequence Therapy",
+    "canonId": "GTS-TEC-0001",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "novagen-institute",
     "category": "institutions",
-    "type": "Institution",
+    "type": "Institution scientifique multinationale",
     "title": "Novagen Institute",
-    "summary": "Institution scientifique multinationale responsable de la sélection, de l’Ascension et du suivi des Homo excelsior.",
-    "year": 2046,
+    "summary": "Institution internationale chargée de la sélection, du protocole GTS, de l’Ascension et du suivi des Homo excelsior.",
+    "year": 2040,
     "tags": [
       "Science",
-      "Gouvernance"
+      "Gouvernance",
+      "Médecine"
     ],
     "facts": {
-      "Siège": "Genève",
-      "Campus": "Boston, Tokyo, Singapour, São Paulo, Nairobi",
-      "Mission": "Superviser la GTS Therapy"
+      "Siège mondial": "Genève, Suisse",
+      "Campus principaux": "Genève, Boston, Tokyo, Singapour, São Paulo, Nairobi",
+      "Mission centrale": "Superviser la GTS Therapy",
+      "Mode d’accès": "Sélection au mérite",
+      "Portée": "Multinationale"
     },
     "sections": [
       {
-        "title": "Rôle",
-        "text": "Novagen valide l’éligibilité, organise les équipes cliniques et garantit l’équilibre mondial des Ascensions."
+        "title": "Mission",
+        "text": "Novagen garantit la sécurité scientifique, la légitimité de la sélection et l’équilibre mondial du programme Homo excelsior."
+      },
+      {
+        "title": "Réseau de campus",
+        "items": [
+          "Genève : gouvernance mondiale et clinique de référence",
+          "Boston : intelligence artificielle biomédicale",
+          "Tokyo : nanobiologie",
+          "Singapour : fabrication et chaînes biomédicales",
+          "São Paulo : biologie clinique",
+          "Nairobi : biomatériaux écologiques"
+        ]
+      },
+      {
+        "title": "Responsabilités",
+        "items": [
+          "Évaluer les candidatures",
+          "Conduire les protocoles d’Ascension",
+          "Organiser les cérémonies officielles",
+          "Assurer le suivi médical à vie",
+          "Limiter la cadence mondiale des Ascensions"
+        ]
       }
     ],
     "relations": [
       "gts-therapy",
+      "conseil-des-fondateurs",
+      "selection-au-merite",
+      "ascension",
+      "campus-novagen",
       "olympia",
-      "ascension-ring",
       "homo-excelsior"
-    ]
+    ],
+    "aliases": [
+      "Novagen"
+    ],
+    "canonId": "GTS-INS-0001",
+    "status": "canon",
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "ascension",
+    "category": "concepts",
+    "type": "Processus médical et institutionnel",
+    "title": "Ascension",
+    "summary": "Processus de 18 à 24 mois au terme duquel une candidate devient Homo excelsior.",
+    "year": 2050,
+    "tags": [
+      "Médecine",
+      "Cérémonie",
+      "Mérite"
+    ],
+    "facts": {
+      "Durée typique": "18 à 24 mois",
+      "Institution responsable": "Novagen Institute",
+      "Résultat": "Transformation en Homo excelsior",
+      "Clôture": "Cérémonie de l’Ascension Ring"
+    },
+    "sections": [
+      {
+        "title": "Phases générales",
+        "items": [
+          "Validation scientifique et institutionnelle",
+          "Préparation physiologique",
+          "Réécriture biologique progressive",
+          "Croissance contrôlée et adaptation organique",
+          "Stabilisation clinique",
+          "Cérémonie officielle"
+        ]
+      },
+      {
+        "title": "Portée symbolique",
+        "text": "L’Ascension récompense une contribution exceptionnelle à l’humanité. Elle implique autant de responsabilités publiques que de prestige."
+      }
+    ],
+    "relations": [
+      "gts-therapy",
+      "selection-au-merite",
+      "novagen-institute",
+      "homo-excelsior",
+      "ascension-ring"
+    ],
+    "canonId": "GTS-CON-0002",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "selection-au-merite",
+    "category": "concepts",
+    "type": "Principe de gouvernance",
+    "title": "Sélection au mérite",
+    "summary": "Principe selon lequel aucune fortune ne peut acheter la GTS Therapy : l’Ascension est accordée pour mérite exceptionnel.",
+    "year": 2050,
+    "tags": [
+      "Gouvernance",
+      "Éthique",
+      "Mérite"
+    ],
+    "facts": {
+      "Autorité": "Conseil des Fondateurs et Novagen Institute",
+      "Critère central": "Contribution exceptionnelle à l’humanité",
+      "Achat privé": "Interdit et impossible",
+      "Équilibre mondial": "Pris en compte"
+    },
+    "sections": [
+      {
+        "title": "Profils reconnus",
+        "items": [
+          "Scientifiques révolutionnaires",
+          "Entrepreneuses visionnaires",
+          "Cheffes d’État",
+          "Artistes à influence mondiale",
+          "Athlètes de légende",
+          "Figures humanitaires majeures"
+        ]
+      },
+      {
+        "title": "Philosophie",
+        "text": "La sélection vise à empêcher la capture de l’Ascension par la richesse, les héritages ou les intérêts privés."
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "conseil-des-fondateurs",
+      "ascension",
+      "gts-therapy"
+    ],
+    "canonId": "GTS-CON-0003",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "conseil-des-fondateurs",
+    "category": "institutions",
+    "type": "Organe de gouvernance",
+    "title": "Conseil des Fondateurs",
+    "summary": "Conseil scientifique et éthique multinational qui supervise les orientations du programme GTS et la sélection des candidates.",
+    "year": 2050,
+    "tags": [
+      "Gouvernance",
+      "Science",
+      "Éthique"
+    ],
+    "facts": {
+      "Composition": "Six disciplines fondatrices",
+      "Renouvellement": "Régulier",
+      "Portée": "Mondiale",
+      "Mission": "Préserver la sécurité et la légitimité du programme"
+    },
+    "sections": [
+      {
+        "title": "Disciplines représentées",
+        "items": [
+          "Biologie",
+          "Génétique",
+          "Bio-informatique",
+          "Ingénierie",
+          "Chirurgie",
+          "Intelligence artificielle médicale"
+        ]
+      },
+      {
+        "title": "Fonction",
+        "text": "Le Conseil statue sur les critères d’éligibilité, l’équilibre international, les limites annuelles et les normes d’emploi stratégique des Homo excelsior."
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "selection-au-merite",
+      "gts-therapy",
+      "normes-internationales-excelsior"
+    ],
+    "canonId": "GTS-INS-0002",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "biologie-excelsior",
+    "category": "sciences",
+    "type": "Physiologie",
+    "title": "Biologie Homo excelsior",
+    "summary": "Ensemble des adaptations permettant à un organisme humain de fonctionner durablement à une taille de 15 à 20 mètres.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "Anatomie",
+      "Médecine"
+    ],
+    "facts": {
+      "Échelle": "15 à 20 m",
+      "Squelette": "Biomatériau renforcé",
+      "Circulation": "Cœur multichambre",
+      "Respiration": "Optimisée",
+      "Métabolisme": "Entièrement réécrit"
+    },
+    "sections": [
+      {
+        "title": "Système musculo-squelettique",
+        "text": "La structure osseuse ne correspond pas à un agrandissement proportionnel du squelette humain. Elle repose sur un matériau composite biologique et sur une architecture musculaire nouvelle."
+      },
+      {
+        "title": "Systèmes vitaux",
+        "items": [
+          "Cœur multichambre pour maintenir la pression sanguine",
+          "Réseau vasculaire renforcé",
+          "Capacité respiratoire augmentée",
+          "Thermorégulation adaptée",
+          "Peau et tissus conjonctifs plus résistants"
+        ]
+      },
+      {
+        "title": "Maintenance biologique",
+        "text": "Les voies de réparation cellulaire et la gestion métabolique sont optimisées afin de réduire l’usure liée à la masse corporelle et d’allonger la durée de vie."
+      }
+    ],
+    "relations": [
+      "homo-excelsior",
+      "gts-therapy",
+      "longevite-excelsior",
+      "reproduction-excelsior"
+    ],
+    "canonId": "GTS-SCI-0001",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "longevite-excelsior",
+    "category": "sciences",
+    "type": "Médecine régénérative",
+    "title": "Longévité Homo excelsior",
+    "summary": "Extension crédible de l’espérance de vie résultant de la réécriture métabolique et des mécanismes de réparation.",
+    "year": 2050,
+    "tags": [
+      "Longévité",
+      "Métabolisme",
+      "Médecine"
+    ],
+    "facts": {
+      "Origine": "Réécriture métabolique",
+      "Mécanismes": "Réparation cellulaire et réduction de l’usure",
+      "Immortalité": "Non",
+      "Suivi": "Médical à vie"
+    },
+    "sections": [
+      {
+        "title": "Principe",
+        "text": "La longévité accrue ne repose pas sur l’arrêt du vieillissement, mais sur une meilleure stabilité métabolique, des mécanismes de réparation renforcés et une prévention médicale continue."
+      }
+    ],
+    "relations": [
+      "biologie-excelsior",
+      "homo-excelsior",
+      "novagen-institute"
+    ],
+    "canonId": "GTS-SCI-0002",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "reproduction-excelsior",
+    "category": "sciences",
+    "type": "Biologie reproductive",
+    "title": "Reproduction des Homo excelsior",
+    "summary": "Les Homo excelsior ne peuvent pas mener une grossesse à terme ; la reproduction repose sur la procréation assistée et l’ectogenèse.",
+    "year": 2050,
+    "tags": [
+      "Reproduction",
+      "Ectogenèse",
+      "Médecine"
+    ],
+    "facts": {
+      "Grossesse naturelle menée à terme": "Impossible",
+      "Enfants": "Homo sapiens",
+      "Transmission automatique de l’Ascension": "Non",
+      "Solution médicale": "Procréation assistée et gestation artificielle"
+    },
+    "sections": [
+      {
+        "title": "Enfants",
+        "text": "Les enfants biologiques d’une Homo excelsior naissent Homo sapiens. Ils ne bénéficient d’aucun droit héréditaire à l’Ascension et doivent, à l’âge adulte, mériter leur propre sélection."
+      },
+      {
+        "title": "Ectogenèse",
+        "text": "Novagen supervise les protocoles de fécondation assistée et de gestation artificielle afin de contourner l’incompatibilité mécanique et physiologique de la grossesse à l’échelle excelsior."
+      }
+    ],
+    "relations": [
+      "homo-excelsior",
+      "biologie-excelsior",
+      "novagen-institute",
+      "selection-au-merite"
+    ],
+    "canonId": "GTS-SCI-0003",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "demographie-excelsior",
+    "category": "concepts",
+    "type": "Démographie",
+    "title": "Démographie Homo excelsior",
+    "summary": "Répartition mondiale d’environ 5 000 Homo excelsior parmi 10,2 milliards d’Homo sapiens en 2075.",
+    "year": 2075,
+    "tags": [
+      "Population",
+      "Monde",
+      "Districts"
+    ],
+    "facts": {
+      "Homo sapiens en 2075": "≈ 10,2 milliards",
+      "Homo excelsior en 2075": "≈ 5 000",
+      "Ratio mondial": "≈ 1 pour 2 millions",
+      "Grandes cités excelsior": "55"
+    },
+    "sections": [
+      {
+        "title": "Répartition urbaine",
+        "items": [
+          "5 capitales mondiales de rang I : environ 1 750 résidentes",
+          "7 capitales continentales de rang II : environ 1 190 résidentes",
+          "43 grandes cités nationales de rang III : environ 2 060 résidentes"
+        ]
+      },
+      {
+        "title": "Facteurs limitants",
+        "items": [
+          "Complexité médicale",
+          "Rareté des biomatériaux",
+          "Équipes spécialisées mobilisées plusieurs années",
+          "Infrastructures dédiées",
+          "Limitation volontaire par Novagen"
+        ]
+      }
+    ],
+    "relations": [
+      "homo-excelsior",
+      "districts-excelsior",
+      "novagen-institute"
+    ],
+    "canonId": "GTS-CON-0004",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "campus-novagen",
+    "category": "lieux",
+    "type": "Réseau scientifique",
+    "title": "Campus du Novagen Institute",
+    "summary": "Réseau mondial de six campus spécialisés soutenant la GTS Therapy et le suivi des Homo excelsior.",
+    "year": 2040,
+    "tags": [
+      "Science",
+      "Campus",
+      "International"
+    ],
+    "facts": {
+      "Genève": "Gouvernance mondiale",
+      "Boston": "IA biomédicale",
+      "Tokyo": "Nanobiologie",
+      "Singapour": "Fabrication",
+      "São Paulo": "Biologie clinique",
+      "Nairobi": "Biomatériaux écologiques"
+    },
+    "sections": [
+      {
+        "title": "Organisation",
+        "text": "Chaque campus dispose d’une spécialité propre tout en partageant les données, normes et capacités cliniques du réseau Novagen."
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "gts-therapy",
+      "olympia",
+      "takamagahara",
+      "meridian",
+      "genesis"
+    ],
+    "canonId": "GTS-LOC-0001",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "role-strategique-excelsior",
+    "category": "concepts",
+    "type": "Doctrine internationale",
+    "title": "Rôle stratégique des Homo excelsior",
+    "summary": "Fonction de dissuasion et de protection exercée volontairement par certaines Homo excelsior dans un cadre international strict.",
+    "year": 2050,
+    "tags": [
+      "Défense",
+      "Dissuasion",
+      "Diplomatie"
+    ],
+    "facts": {
+      "Statut": "Citoyennes libres",
+      "Engagement": "Volontaire",
+      "Missions": "Protection civile, dissuasion, neutralisation ciblée",
+      "Encadrement": "Normes internationales"
+    },
+    "sections": [
+      {
+        "title": "Doctrine",
+        "items": [
+          "Défendre un territoire contre une invasion",
+          "Protéger les populations civiles",
+          "Neutraliser des installations critiques",
+          "Dissuader une escalade militaire"
+        ]
+      },
+      {
+        "title": "Limites",
+        "text": "Les Homo excelsior ne constituent pas une propriété des États. Leur emploi militaire est encadré par des normes internationales destinées à prévenir les abus et les attaques indiscriminées."
+      }
+    ],
+    "relations": [
+      "homo-excelsior",
+      "normes-internationales-excelsior",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-CON-0005",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "normes-internationales-excelsior",
+    "category": "institutions",
+    "type": "Cadre juridique international",
+    "title": "Normes internationales Excelsior",
+    "summary": "Ensemble de principes limitant l’emploi militaire, diplomatique et coercitif des Homo excelsior.",
+    "year": 2050,
+    "tags": [
+      "Droit",
+      "Défense",
+      "Diplomatie"
+    ],
+    "facts": {
+      "Objet": "Prévenir les abus stratégiques",
+      "Principe": "Protection des civils",
+      "Statut des Homo excelsior": "Citoyennes libres",
+      "Portée": "Internationale"
+    },
+    "sections": [
+      {
+        "title": "Principes",
+        "items": [
+          "Interdiction de traiter une Homo excelsior comme une arme possédée",
+          "Proportionnalité de l’usage de la force",
+          "Protection prioritaire des civils",
+          "Responsabilité personnelle et étatique",
+          "Coopération avec Novagen pour les risques médicaux"
+        ]
+      }
+    ],
+    "relations": [
+      "role-strategique-excelsior",
+      "homo-excelsior",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-INS-0003",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "role-industriel-excelsior",
+    "category": "concepts",
+    "type": "Économie",
+    "title": "Rôle industriel des Homo excelsior",
+    "summary": "Participation des Homo excelsior à de nouveaux secteurs économiques et à certaines opérations lourdes spécialisées.",
+    "year": 2050,
+    "tags": [
+      "Industrie",
+      "Économie",
+      "Infrastructure"
+    ],
+    "facts": {
+      "Approche": "Complémentarité avec les machines",
+      "Secteurs": "Architecture, mode, nutrition, médecine, logistique, luxe",
+      "Travaux lourds": "Mines, carrières, construction spécialisée",
+      "Effet": "Création d’industries à l’échelle excelsior"
+    },
+    "sections": [
+      {
+        "title": "Nouvelles industries",
+        "items": [
+          "Architecture et ingénierie monumentales",
+          "Mobilier et habitat excelsior",
+          "Mode et luxe à grande échelle",
+          "Nutrition et agriculture spécialisées",
+          "Médecine et logistique biométriques",
+          "Transport et maintenance des Districts Excelsior"
+        ]
+      },
+      {
+        "title": "Complémentarité",
+        "text": "Leur force ne remplace pas l’automatisation lourde. Elle permet des interventions spécialisées, rapides ou délicates qui complètent machines et infrastructures."
+      }
+    ],
+    "relations": [
+      "homo-excelsior",
+      "districts-excelsior",
+      "demographie-excelsior"
+    ],
+    "canonId": "GTS-CON-0006",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "amelioration-cognitive-excelsior",
+    "category": "technologies",
+    "type": "Neurotechnologie",
+    "title": "Amélioration cognitive excelsior",
+    "summary": "Thérapie optionnelle, développée hors de Novagen, destinée uniquement aux Homo excelsior.",
+    "year": 2060,
+    "tags": [
+      "Cognition",
+      "Mémoire",
+      "Apprentissage"
+    ],
+    "facts": {
+      "Public": "Homo excelsior uniquement",
+      "Statut": "Optionnelle",
+      "Origine": "Laboratoire concurrent",
+      "Effets visés": "Apprentissage, mémoire, raisonnement"
+    },
+    "sections": [
+      {
+        "title": "Portée",
+        "text": "Cette technologie n’est pas une composante automatique de la GTS Therapy. Elle constitue une branche médicale distincte, accessible après stabilisation de l’Ascension."
+      }
+    ],
+    "relations": [
+      "homo-excelsior",
+      "gts-therapy",
+      "biologie-excelsior"
+    ],
+    "canonId": "GTS-TEC-0002",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "chronologie-gts",
+    "category": "chronologie",
+    "type": "Chronologie canonique",
+    "title": "Chronologie fondatrice GTS",
+    "summary": "Principaux jalons menant à la civilisation Homo excelsior de 2075.",
+    "year": 2050,
+    "tags": [
+      "Histoire",
+      "Chronologie",
+      "Canon"
+    ],
+    "facts": {
+      "Période centrale": "2050–2075",
+      "Jalon fondateur": "Présentation de la GTS Therapy en 2050",
+      "Situation en 2075": "≈ 5 000 Homo excelsior et 55 grandes cités"
+    },
+    "sections": [
+      {
+        "title": "Jalons",
+        "items": [
+          "Avant 2050 : convergence internationale de laboratoires et naissance du programme Novagen",
+          "2050 : présentation publique de la GTS Therapy",
+          "Années 2050 : premières Ascensions et création des premiers Districts Excelsior",
+          "Années 2060 : expansion du réseau mondial et apparition d’industries spécialisées",
+          "2075 : environ 5 000 Homo excelsior réparties dans 55 grandes cités"
+        ]
+      }
+    ],
+    "relations": [
+      "gts-therapy",
+      "novagen-institute",
+      "ascension",
+      "homo-excelsior",
+      "demographie-excelsior",
+      "districts-excelsior"
+    ],
+    "canonId": "GTS-CHR-0001",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "ascension-ring",
+    "category": "objets",
+    "type": "Objet cérémoniel",
+    "title": "Ascension Ring",
+    "summary": "Anneau remis lors de la cérémonie marquant l’achèvement d’une Ascension.",
+    "year": 2050,
+    "tags": [
+      "Symbole",
+      "Cérémonie"
+    ],
+    "facts": {
+      "Fonction": "Marque officielle d’Ascension",
+      "Autorité": "Novagen Institute"
+    },
+    "sections": [
+      {
+        "title": "Symbolique",
+        "text": "L’anneau incarne le mérite, la responsabilité et l’entrée dans Homo excelsior."
+      }
+    ],
+    "relations": [
+      "gts-therapy",
+      "novagen-institute",
+      "anahita-rahimi"
+    ],
+    "canonId": "GTS-OBJ-0001",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "olympia",
@@ -170,7 +851,12 @@ window.GTS_DATA = [
       "novagen-institute",
       "anahita-rahimi",
       "districts-excelsior"
-    ]
+    ],
+    "canonId": "GTS-LOC-0002",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "takamagahara",
@@ -199,7 +885,12 @@ window.GTS_DATA = [
     "relations": [
       "novagen-institute",
       "districts-excelsior"
-    ]
+    ],
+    "canonId": "GTS-LOC-0003",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "liberty-heights",
@@ -227,7 +918,12 @@ window.GTS_DATA = [
     ],
     "relations": [
       "districts-excelsior"
-    ]
+    ],
+    "canonId": "GTS-LOC-0004",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "meridian",
@@ -256,7 +952,12 @@ window.GTS_DATA = [
     "relations": [
       "novagen-institute",
       "districts-excelsior"
-    ]
+    ],
+    "canonId": "GTS-LOC-0005",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "sky-mirage",
@@ -284,7 +985,12 @@ window.GTS_DATA = [
     ],
     "relations": [
       "districts-excelsior"
-    ]
+    ],
+    "canonId": "GTS-LOC-0006",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "lumiere",
@@ -313,7 +1019,12 @@ window.GTS_DATA = [
     "relations": [
       "rahimi-atelier",
       "districts-excelsior"
-    ]
+    ],
+    "canonId": "GTS-LOC-0007",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "genesis",
@@ -342,7 +1053,12 @@ window.GTS_DATA = [
     "relations": [
       "novagen-institute",
       "districts-excelsior"
-    ]
+    ],
+    "canonId": "GTS-LOC-0008",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "districts-excelsior",
@@ -375,7 +1091,12 @@ window.GTS_DATA = [
       "lumiere",
       "genesis",
       "homo-excelsior"
-    ]
+    ],
+    "canonId": "GTS-CON-0007",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   },
   {
     "id": "rahimi-atelier",
@@ -404,71 +1125,40 @@ window.GTS_DATA = [
       "anahita-rahimi",
       "lumiere",
       "olympia"
-    ]
-  },
-  {
-    "id": "ascension-ring",
-    "category": "objets",
-    "type": "Objet cérémoniel",
-    "title": "Ascension Ring",
-    "summary": "Anneau remis lors de la cérémonie marquant l’achèvement d’une Ascension.",
-    "year": 2050,
-    "tags": [
-      "Symbole",
-      "Cérémonie"
     ],
-    "facts": {
-      "Fonction": "Marque officielle d’Ascension",
-      "Autorité": "Novagen Institute"
-    },
-    "sections": [
-      {
-        "title": "Symbolique",
-        "text": "L’anneau incarne le mérite, la responsabilité et l’entrée dans Homo excelsior."
-      }
-    ],
-    "relations": [
-      "gts-therapy",
-      "novagen-institute",
-      "anahita-rahimi"
-    ]
+    "canonId": "GTS-INS-0004",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   }
 ];
 
-
-// Sprint A4 — couche de données canonique.
-const A4_META = {
-  "anahita-rahimi": { canonId:"GTS-PER-0001", status:"canon", aliases:["The Iranian Goddess"], source:"GTS CMS", updated:"2075-06-12", visual:{subject:"Iranian Homo excelsior woman, 18 metres tall", required:["architectural hijab","luxury latex couture","Ascension Ring"], forbidden:["visible hair","casual denim","human-scale proportions"]}},
-  "homo-excelsior": { canonId:"GTS-CON-0001", status:"canon", aliases:["Giantesses"], source:"GTS CMS", updated:"2075-05-30", visual:{subject:"scientifically credible 15–20 metre Homo excelsior woman", required:["realistic scale references","reinforced anatomy"], forbidden:["fantasy magic","cartoon anatomy"]}},
-  "gts-therapy": { canonId:"GTS-TEC-0001", status:"canon", aliases:["Genetic Titan Sequence Therapy"], source:"GTS CMS", updated:"2075-04-18"},
-  "novagen-institute": { canonId:"GTS-INS-0001", status:"canon", aliases:["Novagen"], source:"GTS CMS", updated:"2075-05-08"},
-  "olympia": { canonId:"GTS-LOC-0001", status:"canon", aliases:["District Olympia"], source:"GTS CMS", updated:"2075-06-02", visual:{subject:"monumental Excelsior district beside Geneva and Lake Geneva", required:["15–20 metre scale architecture","Novagen visual language"], forbidden:["ordinary human-scale streets"]}},
-  "takamagahara": { canonId:"GTS-LOC-0002", status:"canon", aliases:[], source:"GTS CMS", updated:"2075-03-25"},
-  "liberty-heights": { canonId:"GTS-LOC-0003", status:"canon", aliases:[], source:"GTS CMS", updated:"2075-03-25"},
-  "meridian": { canonId:"GTS-LOC-0004", status:"canon", aliases:[], source:"GTS CMS", updated:"2075-03-25"}
-};
-window.GTS_DATA = window.GTS_DATA.map((entry, index) => ({
-  canonId: `GTS-${String(index + 1).padStart(4, "0")}`,
-  status: "draft",
-  aliases: [],
-  source: "GTS Encyclopedia",
-  updated: "2075-01-01",
-  ...entry,
-  ...(A4_META[entry.id] || {})
-}));
 window.GTS_SCHEMA = {
-  version: "1.3.0",
-  required: ["canonId","id","title","category","type","summary","status","source","updated"],
-  recommended: ["year","tags","facts","sections","relations","aliases","visual"],
-  statuses: ["canon","draft","review"]
+  "version": "1.5.0-lot1",
+  "required": [
+    "canonId",
+    "id",
+    "title",
+    "category",
+    "type",
+    "summary",
+    "status",
+    "source",
+    "updated"
+  ],
+  "recommended": [
+    "year",
+    "tags",
+    "facts",
+    "sections",
+    "relations",
+    "aliases",
+    "visual"
+  ],
+  "statuses": [
+    "canon",
+    "draft",
+    "review"
+  ]
 };
-,
-{
-"id":"novagen-institute",
-"category":"institutions",
-"type":"Institution",
-"title":"Novagen Institute",
-"summary":"Institution scientifique internationale supervisant la GTS Therapy.",
-"relations":["gts-therapy","homo-excelsior","olympia"]
-}
-

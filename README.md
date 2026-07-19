@@ -13,3 +13,7 @@ Fonctionnalités réellement ajoutées :
 - export JSON A4.
 
 Déploiement : envoyer tous les fichiers à la racine du dépôt GitHub Pages.
+
+
+## Sprint A5 v1.5.0 — Lot 1 Lore Foundations
+Intégration canonique de la GTS Therapy, Homo excelsior, Novagen Institute, Ascension, biologie, démographie, reproduction, rôles stratégique et industriel, gouvernance et chronologie fondatrice.
