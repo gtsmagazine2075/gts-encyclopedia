@@ -4,33 +4,58 @@ window.GTS_DATA = [
     "category": "personnages",
     "type": "Personnage",
     "title": "Anahita Rahimi",
-    "subtitle": "The Iranian Goddess",
-    "summary": "Créatrice iranienne, fondatrice de Rahimi Atelier et Homo excelsior de 18 mètres.",
+    "subtitle": "The Iranian Goddess · Génération II",
+    "summary": "Créatrice iranienne née à Shiraz, fondatrice de Rahimi Atelier et Homo excelsior de 18 mètres, devenue une figure mondiale de la mode, du mérite et de la diplomatie culturelle.",
     "year": 2075,
     "tags": [
       "Iran",
       "Mode",
-      "Homo excelsior"
+      "Homo excelsior",
+      "Génération II",
+      "Diplomatie culturelle"
     ],
     "facts": {
-      "Naissance": "2048, Shiraz",
-      "Taille": "18 m",
-      "Résidence": "Olympia, Genève",
-      "Fonction": "Fondatrice et CEO de Rahimi Atelier"
+      "Naissance": "2048, Shiraz, Iran",
+      "Âge en 2075": "27 ans",
+      "Nationalité": "Iranienne",
+      "Génération": "II",
+      "Taille avant / après": "1,72 m / 18 m",
+      "Groupe sanguin": "O+",
+      "Yeux": "Brun foncé",
+      "Cheveux": "Noirs, toujours dissimulés",
+      "Fonction": "Fondatrice et CEO de Rahimi Atelier",
+      "Résidence principale": "Olympia, Genève",
+      "Résidence secondaire": "Téhéran",
+      "Langues": "Farsi, anglais et français",
+      "Citation": "« I am not a fantasy. I am the future. »"
     },
     "sections": [
       {
         "title": "Biographie",
-        "text": "Anahita Rahimi est une figure internationale de la mode et un symbole de l’Ascension fondée sur le mérite."
+        "text": "Née à Shiraz en 2048, Anahita Rahimi étudie le design de mode et le management du luxe avant de devenir mannequin internationale puis entrepreneuse. Sa contribution à la couture spécialisée et son influence culturelle conduisent Novagen à la sélectionner au mérite."
+      },
+      {
+        "title": "Ascension",
+        "text": "Son protocole dure entre dix-huit et vingt-quatre mois au campus de Genève. La cérémonie de remise de l’Ascension Ring consacre son entrée dans la Génération II des Homo excelsior."
+      },
+      {
+        "title": "Rahimi Atelier",
+        "text": "Elle dirige une maison internationale spécialisée dans le latex haute couture et le hijab couture, disposant de boutiques mondiales, de collections limitées et de plusieurs centaines d’employés."
       },
       {
         "title": "Signature visuelle",
         "items": [
-          "Latex haute couture",
-          "Hijab architectural",
-          "Ascension Ring visible",
-          "Palette noir, pétrole, ivoire et métaux précieux"
+          "Latex haute couture brillant aux coutures invisibles",
+          "Hijab architectural parfaitement ajusté, sans cheveux visibles",
+          "Silhouette élégante, futuriste et ajustée",
+          "Palette noir profond, bleu pétrole, bleu glacier, gris acier et ivoire",
+          "Accents or, platine et argent",
+          "Influences persanes, luxe parisien et construction architecturale"
         ]
+      },
+      {
+        "title": "Rôle public",
+        "text": "Anahita agit comme ambassadrice culturelle, mécène humanitaire et figure diplomatique. Elle soutient également les infrastructures monumentales et peut contribuer volontairement à la dissuasion stratégique dans le cadre des normes internationales."
       }
     ],
     "relations": [
@@ -214,7 +239,13 @@ window.GTS_DATA = [
       "ascension",
       "campus-novagen",
       "olympia",
-      "homo-excelsior"
+      "homo-excelsior",
+      "jp-biologiste-fondatrice",
+      "ng-geneticienne-fondatrice",
+      "in-bioinformaticienne-fondatrice",
+      "ch-ingenieure-fondatrice",
+      "br-chirurgienne-fondatrice",
+      "ca-experte-ia-medicale"
     ],
     "aliases": [
       "Novagen"
@@ -358,7 +389,13 @@ window.GTS_DATA = [
       "novagen-institute",
       "selection-au-merite",
       "gts-therapy",
-      "normes-internationales-excelsior"
+      "normes-internationales-excelsior",
+      "jp-biologiste-fondatrice",
+      "ng-geneticienne-fondatrice",
+      "in-bioinformaticienne-fondatrice",
+      "ch-ingenieure-fondatrice",
+      "br-chirurgienne-fondatrice",
+      "ca-experte-ia-medicale"
     ],
     "canonId": "GTS-INS-0002",
     "status": "canon",
@@ -2382,11 +2419,288 @@ window.GTS_DATA = [
     "aliases": [],
     "source": "GTS Canon",
     "updated": "2075-07-20"
+  },
+  {
+    "id": "jp-biologiste-fondatrice",
+    "category": "personnages",
+    "type": "Scientifique fondatrice",
+    "title": "J. P.",
+    "subtitle": "Biologiste fondatrice",
+    "summary": "Figure scientifique à l’origine de l’intuition biologique décisive ayant rendu possible la GTS Therapy. Son nom complet reste à confirmer dans le canon.",
+    "year": 2050,
+    "tags": [
+      "Novagen",
+      "Fondation",
+      "Biologie"
+    ],
+    "facts": {
+      "Rôle": "Biologiste fondatrice",
+      "Discipline": "Biologie",
+      "Organisation": "Novagen Institute",
+      "Organe": "Conseil des Fondateurs",
+      "Nom complet": "À confirmer",
+      "Naissance": "1971"
+    },
+    "sections": [
+      {
+        "title": "Contribution fondatrice",
+        "text": "Figure scientifique à l’origine de l’intuition biologique décisive ayant rendu possible la GTS Therapy. Son nom complet reste à confirmer dans le canon."
+      },
+      {
+        "title": "Gouvernance",
+        "text": "Membre du collège scientifique multinational à l’origine du programme. Le siège est renouvelé régulièrement afin que le Conseil ne devienne pas une autorité personnelle permanente."
+      },
+      {
+        "title": "État canonique",
+        "text": "Les initiales et la discipline sont établies. Le nom complet et certains éléments biographiques restent volontairement en attente de validation."
+      }
+    ],
+    "relations": [
+      "gts-therapy",
+      "biologie-excelsior",
+      "novagen-institute",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-PER-0002",
+    "status": "review",
+    "aliases": [],
+    "source": "GTS Canon — identité à compléter",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "ng-geneticienne-fondatrice",
+    "category": "personnages",
+    "type": "Scientifique fondatrice",
+    "title": "N. G.",
+    "subtitle": "Généticienne fondatrice",
+    "summary": "Responsable de l’architecture génétique initiale du protocole GTS et de ses mécanismes de réécriture contrôlée.",
+    "year": 2050,
+    "tags": [
+      "Novagen",
+      "Fondation",
+      "Génétique"
+    ],
+    "facts": {
+      "Rôle": "Généticienne fondatrice",
+      "Discipline": "Génétique",
+      "Organisation": "Novagen Institute",
+      "Organe": "Conseil des Fondateurs",
+      "Nom complet": "À confirmer"
+    },
+    "sections": [
+      {
+        "title": "Contribution fondatrice",
+        "text": "Responsable de l’architecture génétique initiale du protocole GTS et de ses mécanismes de réécriture contrôlée."
+      },
+      {
+        "title": "Gouvernance",
+        "text": "Membre du collège scientifique multinational à l’origine du programme. Le siège est renouvelé régulièrement afin que le Conseil ne devienne pas une autorité personnelle permanente."
+      },
+      {
+        "title": "État canonique",
+        "text": "Les initiales et la discipline sont établies. Le nom complet et certains éléments biographiques restent volontairement en attente de validation."
+      }
+    ],
+    "relations": [
+      "gts-therapy",
+      "phase-reecriture-biologique",
+      "novagen-institute",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-PER-0003",
+    "status": "review",
+    "aliases": [],
+    "source": "GTS Canon — identité à compléter",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "in-bioinformaticienne-fondatrice",
+    "category": "personnages",
+    "type": "Scientifique fondatrice",
+    "title": "I. N.",
+    "subtitle": "Bio-informaticienne fondatrice",
+    "summary": "Conceptrice des modèles de simulation et de validation utilisés pour prévoir les transformations à l’échelle de l’organisme.",
+    "year": 2050,
+    "tags": [
+      "Novagen",
+      "Fondation",
+      "Bio-informatique"
+    ],
+    "facts": {
+      "Rôle": "Bio-informaticienne fondatrice",
+      "Discipline": "Bio-informatique",
+      "Organisation": "Novagen Institute",
+      "Organe": "Conseil des Fondateurs",
+      "Nom complet": "À confirmer"
+    },
+    "sections": [
+      {
+        "title": "Contribution fondatrice",
+        "text": "Conceptrice des modèles de simulation et de validation utilisés pour prévoir les transformations à l’échelle de l’organisme."
+      },
+      {
+        "title": "Gouvernance",
+        "text": "Membre du collège scientifique multinational à l’origine du programme. Le siège est renouvelé régulièrement afin que le Conseil ne devienne pas une autorité personnelle permanente."
+      },
+      {
+        "title": "État canonique",
+        "text": "Les initiales et la discipline sont établies. Le nom complet et certains éléments biographiques restent volontairement en attente de validation."
+      }
+    ],
+    "relations": [
+      "ia-medicale-novagen",
+      "gts-therapy",
+      "novagen-institute",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-PER-0004",
+    "status": "review",
+    "aliases": [],
+    "source": "GTS Canon — identité à compléter",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "ch-ingenieure-fondatrice",
+    "category": "personnages",
+    "type": "Scientifique fondatrice",
+    "title": "C. H.",
+    "subtitle": "Ingénieure fondatrice",
+    "summary": "Responsable des infrastructures, biomatériaux et systèmes de soutien indispensables aux premières Ascensions.",
+    "year": 2050,
+    "tags": [
+      "Novagen",
+      "Fondation",
+      "Ingénierie biomédicale"
+    ],
+    "facts": {
+      "Rôle": "Ingénieure fondatrice",
+      "Discipline": "Ingénierie biomédicale",
+      "Organisation": "Novagen Institute",
+      "Organe": "Conseil des Fondateurs",
+      "Nom complet": "À confirmer"
+    },
+    "sections": [
+      {
+        "title": "Contribution fondatrice",
+        "text": "Responsable des infrastructures, biomatériaux et systèmes de soutien indispensables aux premières Ascensions."
+      },
+      {
+        "title": "Gouvernance",
+        "text": "Membre du collège scientifique multinational à l’origine du programme. Le siège est renouvelé régulièrement afin que le Conseil ne devienne pas une autorité personnelle permanente."
+      },
+      {
+        "title": "État canonique",
+        "text": "Les initiales et la discipline sont établies. Le nom complet et certains éléments biographiques restent volontairement en attente de validation."
+      }
+    ],
+    "relations": [
+      "biomateriaux-novagen",
+      "fabrication-biomedicale-novagen",
+      "novagen-institute",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-PER-0005",
+    "status": "review",
+    "aliases": [],
+    "source": "GTS Canon — identité à compléter",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "br-chirurgienne-fondatrice",
+    "category": "personnages",
+    "type": "Scientifique fondatrice",
+    "title": "B. R.",
+    "subtitle": "Chirurgienne fondatrice",
+    "summary": "Pionnière des procédures interventionnelles et du suivi clinique pendant les phases critiques de croissance et de stabilisation.",
+    "year": 2050,
+    "tags": [
+      "Novagen",
+      "Fondation",
+      "Chirurgie"
+    ],
+    "facts": {
+      "Rôle": "Chirurgienne fondatrice",
+      "Discipline": "Chirurgie",
+      "Organisation": "Novagen Institute",
+      "Organe": "Conseil des Fondateurs",
+      "Nom complet": "À confirmer"
+    },
+    "sections": [
+      {
+        "title": "Contribution fondatrice",
+        "text": "Pionnière des procédures interventionnelles et du suivi clinique pendant les phases critiques de croissance et de stabilisation."
+      },
+      {
+        "title": "Gouvernance",
+        "text": "Membre du collège scientifique multinational à l’origine du programme. Le siège est renouvelé régulièrement afin que le Conseil ne devienne pas une autorité personnelle permanente."
+      },
+      {
+        "title": "État canonique",
+        "text": "Les initiales et la discipline sont établies. Le nom complet et certains éléments biographiques restent volontairement en attente de validation."
+      }
+    ],
+    "relations": [
+      "phase-croissance-excelsior",
+      "phase-stabilisation-ascension",
+      "medecine-excelsior",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-PER-0006",
+    "status": "review",
+    "aliases": [],
+    "source": "GTS Canon — identité à compléter",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "ca-experte-ia-medicale",
+    "category": "personnages",
+    "type": "Scientifique fondatrice",
+    "title": "C. A.",
+    "subtitle": "Experte fondatrice en IA médicale",
+    "summary": "Architecte des systèmes d’IA biomédicale qui surveillent, anticipent et sécurisent chaque étape d’une Ascension.",
+    "year": 2050,
+    "tags": [
+      "Novagen",
+      "Fondation",
+      "Intelligence artificielle médicale"
+    ],
+    "facts": {
+      "Rôle": "Experte fondatrice en IA médicale",
+      "Discipline": "Intelligence artificielle médicale",
+      "Organisation": "Novagen Institute",
+      "Organe": "Conseil des Fondateurs",
+      "Nom complet": "À confirmer"
+    },
+    "sections": [
+      {
+        "title": "Contribution fondatrice",
+        "text": "Architecte des systèmes d’IA biomédicale qui surveillent, anticipent et sécurisent chaque étape d’une Ascension."
+      },
+      {
+        "title": "Gouvernance",
+        "text": "Membre du collège scientifique multinational à l’origine du programme. Le siège est renouvelé régulièrement afin que le Conseil ne devienne pas une autorité personnelle permanente."
+      },
+      {
+        "title": "État canonique",
+        "text": "Les initiales et la discipline sont établies. Le nom complet et certains éléments biographiques restent volontairement en attente de validation."
+      }
+    ],
+    "relations": [
+      "ia-medicale-novagen",
+      "suivi-post-ascension",
+      "novagen-institute",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-PER-0007",
+    "status": "review",
+    "aliases": [],
+    "source": "GTS Canon — identité à compléter",
+    "updated": "2075-07-20"
   }
 ];
 
 window.GTS_SCHEMA = {
-  "version": "1.6.0-b1",
+  "version": "1.7.0-b2-personnages",
   "required": [
     "canonId",
     "id",

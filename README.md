@@ -1,29 +1,16 @@
-# GTS Encyclopedia — Sprint A5
+# GTS Encyclopedia — Sprint B2 v1.7.0
 
-Version **1.4.0 — Canon Database**.
+Application web statique prête pour GitHub Pages.
 
-Fonctionnalités réellement ajoutées :
-- identifiants canoniques stables ;
-- statuts canon / brouillon / révision ;
-- provenance et date de mise à jour ;
-- schéma de données obligatoire et recommandé ;
-- calcul de complétude par fiche ;
-- vue Base de connaissances ;
-- alias et spécifications visuelles destinées aux futurs articles et images ;
-- export JSON A4.
+## Contenu du sprint
 
-Déploiement : envoyer tous les fichiers à la racine du dépôt GitHub Pages.
+- conservation intégrale du Canon Core B1 ;
+- enrichissement complet de la fiche d’Anahita Rahimi ;
+- intégration des six membres scientifiques du Conseil des Fondateurs ;
+- initiales et disciplines canoniques conservées ;
+- identités non définies explicitement marquées `review` et « à confirmer » ;
+- nouvelles relations entre les personnes, Novagen, les technologies et les phases d’Ascension.
 
+## Déploiement
 
-## Sprint A5 v1.5.0 — Lot 1 Lore Foundations
-Intégration canonique de la GTS Therapy, Homo excelsior, Novagen Institute, Ascension, biologie, démographie, reproduction, rôles stratégique et industriel, gouvernance et chronologie fondatrice.
-
-
-## Sprint B1 — Canon Core v1.6.0
-
-- 63 fiches structurées
-- Physiologie excelsior détaillée
-- Phases complètes de l’Ascension
-- Réseau scientifique Novagen
-- Urbanisme multi-échelle des Districts
-- Société, droit, prestige et responsabilités
+Téléverser à la racine du dépôt GitHub Pages : `index.html`, `styles.css`, `app.js`, `data.js`, `_headers` et `README.md`.
