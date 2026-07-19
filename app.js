@@ -28,9 +28,4 @@ function search(q){const t=q.trim().toLowerCase(),r=(t?data.filter(x=>JSON.strin
 function openSearch(){$('#searchOverlay').classList.remove('hidden');$('#searchInput').value='';search('');setTimeout(()=>$('#searchInput').focus(),20)} function closeSearch(){$('#searchOverlay').classList.add('hidden')} function closeModal(){$('#detailModal').classList.add('hidden');document.body.style.overflow=''}
 document.querySelectorAll('[data-close-modal]').forEach(x=>x.onclick=closeModal);document.querySelectorAll('[data-close-search]').forEach(x=>x.onclick=closeSearch);$('#searchLaunch').onclick=openSearch;$('#searchInput').oninput=e=>search(e.target.value);$('#themeBtn').onclick=()=>{document.documentElement.classList.toggle('light');localStorage.setItem('gts-theme',document.documentElement.classList.contains('light')?'light':'dark')};if(localStorage.getItem('gts-theme')==='light')document.documentElement.classList.add('light');$('#menuBtn').onclick=()=>$('#sidebar').classList.toggle('open');$('#editorBtn').onclick=()=>{state.editor=!state.editor;$('#editorBtn').classList.toggle('active',state.editor);toast(state.editor?'Mode éditeur activé':'Mode éditeur désactivé')};document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeModal();closeSearch()}if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();openSearch()}});render();
 
-
-// Sprint A5 enhancements
-function relatedEntries(entry){
-  const rel=(entry.relations||[]);
-  return rel.map(id=>data.find(e=>e.id===id)).filter(Boolean);
-}
+// Sprint A5 placeholder

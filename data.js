@@ -1,7 +1,6 @@
 window.GTS_DATA = [
   {
     "id": "anahita-rahimi",
-    "relations":["novagen-institute","olympia","rahimi-atelier"],
     "category": "personnages",
     "type": "Personnage",
     "title": "Anahita Rahimi",

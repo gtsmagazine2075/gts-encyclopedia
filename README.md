@@ -1,6 +1,6 @@
-# GTS Encyclopedia — Sprint A4
+# GTS Encyclopedia — Sprint A5
 
-Version **1.3.0 — Canon Database**.
+Version **1.4.0 — Canon Database**.
 
 Fonctionnalités réellement ajoutées :
 - identifiants canoniques stables ;
@@ -13,8 +13,3 @@ Fonctionnalités réellement ajoutées :
 - export JSON A4.
 
 Déploiement : envoyer tous les fichiers à la racine du dépôt GitHub Pages.
-
-
-## Sprint A5
-- Base des relations préparée.
-- Liens entre fiches via champ `relations`.
