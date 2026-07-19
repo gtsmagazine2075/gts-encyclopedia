@@ -1,15 +1,436 @@
 window.GTS_DATA = [
-{ id:'anahita-rahimi',category:'personnages',type:'Homo excelsior',title:'Anahita Rahimi',subtitle:'The Iranian Goddess',summary:'Créatrice iranienne, fondatrice de Rahimi Atelier et figure majeure de la Génération II.',tags:['Iran','Mode','Génération II'],facts:{Naissance:'2048 · Shiraz',Taille:'18 m',Résidence:'Olympia · Genève',Profession:'Fondatrice et CEO de Rahimi Atelier'},sections:[{title:'Identité',text:'Anahita Rahimi est l’une des personnalités les plus reconnues de l’ère Homo excelsior. Sa silhouette monumentale, son hijab architectural et ses créations en latex haute couture ont transformé les codes mondiaux du luxe.'},{title:'Ascension',text:'Sélectionnée au mérite par le Novagen Institute, elle a suivi un protocole d’Ascension de 18 à 24 mois avant de recevoir son Ascension Ring à Genève.'},{title:'Style officiel',items:['Latex haute couture aux coutures invisibles','Hijab sculptural parfaitement ajusté','Palette noir profond, bleu pétrole, ivoire et métaux précieux','Influences persanes, parisiennes et architecturales']}]},
-{ id:'homo-excelsior',category:'concepts',type:'Nouvelle sous-espèce',title:'Homo excelsior',subtitle:'L’humanité réécrite',summary:'Femmes transformées par la GTS Therapy, mesurant généralement entre 15 et 20 mètres.',tags:['Biologie','Société','Ascension'],facts:{Population:'≈ 5 000 en 2075',Taille:'15–20 m',Accès:'Sélection au mérite',Descendance:'Homo sapiens'},sections:[{title:'Biologie',text:'La GTS Therapy réécrit profondément l’organisme : squelette renforcé, nouvelle architecture musculaire, cœur multi-chambre, respiration optimisée, peau et tissus conjonctifs adaptés, métabolisme redessiné.'},{title:'Statut social',text:'L’Ascension est devenue la distinction la plus prestigieuse du monde, au-delà de la richesse, des titres et des récompenses historiques.'},{title:'Rôle',items:['Dissuasion stratégique et protection civile','Diplomatie et représentation internationale','Innovation industrielle et urbaine','Culture, recherche, sport et mécénat']}]},
-{ id:'gts-therapy',category:'technologies',type:'Biotechnologie',title:'GTS Therapy',subtitle:'Genetic Titan Sequence Therapy',summary:'Protocole médical présenté en 2050 permettant l’Ascension vers Homo excelsior.',tags:['Novagen','Génétique','2050'],facts:{Durée:'18–24 mois',Compatibilité:'Femmes uniquement',Commercialisation:'Non vendue',Contrôle:'Conseil mondial des Fondateurs'},sections:[{title:'Principe',text:'La thérapie ne se contente pas d’agrandir le corps. Elle réécrit l’ensemble des systèmes biologiques afin de rendre viable une morphologie de 15 à 20 mètres.'},{title:'Accès',text:'La GTS Therapy est accordée au mérite. Même les personnes les plus riches ne peuvent acheter une Ascension.'},{title:'Limites',text:'La physiologie masculine reste incompatible malgré plusieurs décennies de recherche. Les capacités annuelles sont limitées par la complexité médicale, les biomatériaux et les ressources scientifiques.'}]},
-{ id:'novagen-institute',category:'institutions',type:'Institution scientifique',title:'Novagen Institute',subtitle:'Gardien de l’Ascension',summary:'Institution multinationale chargée de la sélection, du protocole GTS et du suivi post-Ascension.',tags:['Science','Gouvernance','Mondial'],facts:{Siège:'Genève',Campus:'6 principaux',Mission:'Administrer l’Ascension',Statut:'Institution multinationale'},sections:[{title:'Campus',items:['Genève — gouvernance mondiale','Boston — intelligence artificielle biomédicale','Tokyo — nanobiologie','Singapour — production','São Paulo — biologie clinique','Nairobi — biomatériaux écologiques']},{title:'Mission',text:'Novagen organise la sélection, la logistique médicale, la cérémonie de l’Ascension Ring et le suivi continu des Homo excelsior.'}]},
-{ id:'districts-excelsior',category:'concepts',type:'Urbanisme',title:'Districts Excelsior',subtitle:'Des villes à deux échelles',summary:'Quartiers spécialisés conçus pour la coexistence entre Homo sapiens et Homo excelsior.',tags:['Architecture','Ville','Infrastructure'],facts:{Nombre:'55',Rangs:'I, II et III',Échelle:'15–20 m',Modèle:'Intégration métropolitaine'},sections:[{title:'Organisation',text:'Les districts combinent niveau humain, niveau intermédiaire de services et niveau Excelsior doté de boulevards monumentaux, résidences, institutions, parcs et réseaux techniques adaptés.'},{title:'Impact',text:'Ils sont considérés comme l’une des innovations urbaines majeures du XXIe siècle.'}]},
-{ id:'olympia',category:'lieux',type:'Capitale mondiale · Rang I',title:'Olympia',subtitle:'Genève · Suisse',summary:'Siège mondial du Novagen Institute et centre politique de la civilisation Homo excelsior.',tags:['Genève','Rang I','Novagen'],facts:{Pays:'Suisse',Rang:'I',Population:'≈ 350 Homo excelsior',Fonction:'Capitale mondiale'},sections:[{title:'Identité',text:'Olympia domine l’arc lémanique et rassemble les principales institutions de gouvernance, de médecine et de diplomatie liées à l’Ascension.'},{title:'Paysage',text:'Le district offre des vues sur le lac Léman, le Jet d’Eau, les Alpes et le Mont-Blanc.'}]},
-{ id:'takamagahara',category:'lieux',type:'Capitale mondiale · Rang I',title:'Takamagahara',subtitle:'Tokyo · Japon',summary:'Capitale asiatique de la nanobiologie, de la culture et de l’ingénierie Excelsior.',tags:['Tokyo','Rang I','Asie'],facts:{Pays:'Japon',Rang:'I',Population:'≈ 350 Homo excelsior',Spécialité:'Nanobiologie'},sections:[{title:'Identité',text:'Takamagahara associe mégastructures japonaises, jardins monumentaux et infrastructures scientifiques de pointe.'}]},
-{ id:'liberty-heights',category:'lieux',type:'Capitale mondiale · Rang I',title:'Liberty Heights',subtitle:'New York · États-Unis',summary:'Centre médiatique, économique et diplomatique majeur d’Amérique du Nord.',tags:['New York','Rang I','Amérique'],facts:{Pays:'États-Unis',Rang:'I',Population:'≈ 350 Homo excelsior',Fonction:'Économie et médias'},sections:[{title:'Identité',text:'Liberty Heights constitue la vitrine nord-américaine de la société Homo excelsior et de ses industries.'}]},
-{ id:'meridian',category:'lieux',type:'Capitale mondiale · Rang I',title:'Meridian',subtitle:'Singapour',summary:'Nœud mondial de production biomédicale, de logistique et de gouvernance maritime.',tags:['Singapour','Rang I','Production'],facts:{Pays:'Singapour',Rang:'I',Population:'≈ 350 Homo excelsior',Spécialité:'Production'},sections:[{title:'Identité',text:'Meridian relie les chaînes de production Novagen aux réseaux logistiques du monde entier.'}]},
-{ id:'sky-mirage',category:'lieux',type:'Capitale mondiale · Rang I',title:'Sky Mirage',subtitle:'Dubaï · Émirats arabes unis',summary:'Capitale de l’architecture monumentale, du luxe et de l’innovation climatique.',tags:['Dubaï','Rang I','Architecture'],facts:{Pays:'Émirats arabes unis',Rang:'I',Population:'≈ 350 Homo excelsior',Spécialité:'Architecture'},sections:[{title:'Identité',text:'Sky Mirage expérimente les formes urbaines les plus ambitieuses de l’ère Excelsior.'}]},
-{ id:'ascension-ring',category:'objets',type:'Symbole',title:'Ascension Ring',subtitle:'Le sceau de la transformation',summary:'Anneau cérémoniel remis à l’issue de l’Ascension et porté comme signe d’appartenance.',tags:['Cérémonie','Prestige','Novagen'],facts:{Remise:'Fin du protocole',Valeur:'Symbolique',Port:'Personnel',Institution:'Novagen Institute'},sections:[{title:'Signification',text:'L’Ascension Ring marque l’achèvement du protocole, la reconnaissance officielle du nouveau statut biologique et l’entrée dans la communauté Homo excelsior.'}]},
-{ id:'rahimi-atelier',category:'institutions',type:'Maison de couture',title:'Rahimi Atelier',subtitle:'Latex couture · Hijab couture',summary:'Maison fondée par Anahita Rahimi, pionnière de la mode monumentale pour Homo excelsior.',tags:['Mode','Luxe','Anahita'],facts:{Fondatrice:'Anahita Rahimi',Secteur:'Haute couture','Siège créatif':'Téhéran',Portée:'Mondiale'},sections:[{title:'Création',text:'Rahimi Atelier conçoit des pièces monumentales en latex haute couture, notamment des hijabs architecturaux adaptés à l’échelle Homo excelsior.'}]},
-{ id:'conseil-fondateurs',category:'institutions',type:'Gouvernance',title:'Conseil mondial des Fondateurs',subtitle:'L’autorité de sélection',summary:'Conseil multinational qui attribue l’accès à la GTS Therapy selon le mérite.',tags:['Sélection','Éthique','Gouvernance'],facts:{Composition:'6 disciplines fondatrices',Mandat:'Renouvelé régulièrement',Pouvoir:'Sélection des candidates',Principe:'Équilibre mondial'},sections:[{title:'Disciplines',items:['Biologie','Génétique','Bio-informatique','Ingénierie','Chirurgie','Intelligence artificielle médicale']},{title:'Rôle',text:'Le Conseil protège la légitimité de l’Ascension et empêche sa transformation en privilège marchand.'}]}
+  {
+    "id": "anahita-rahimi",
+    "category": "personnages",
+    "type": "Personnage",
+    "title": "Anahita Rahimi",
+    "subtitle": "The Iranian Goddess",
+    "summary": "Créatrice iranienne, fondatrice de Rahimi Atelier et Homo excelsior de 18 mètres.",
+    "year": 2075,
+    "tags": [
+      "Iran",
+      "Mode",
+      "Homo excelsior"
+    ],
+    "facts": {
+      "Naissance": "2048, Shiraz",
+      "Taille": "18 m",
+      "Résidence": "Olympia, Genève",
+      "Fonction": "Fondatrice et CEO de Rahimi Atelier"
+    },
+    "sections": [
+      {
+        "title": "Biographie",
+        "text": "Anahita Rahimi est une figure internationale de la mode et un symbole de l’Ascension fondée sur le mérite."
+      },
+      {
+        "title": "Signature visuelle",
+        "items": [
+          "Latex haute couture",
+          "Hijab architectural",
+          "Ascension Ring visible",
+          "Palette noir, pétrole, ivoire et métaux précieux"
+        ]
+      }
+    ],
+    "relations": [
+      "rahimi-atelier",
+      "olympia",
+      "novagen-institute",
+      "homo-excelsior",
+      "gts-therapy"
+    ]
+  },
+  {
+    "id": "homo-excelsior",
+    "category": "concepts",
+    "type": "Espèce",
+    "title": "Homo excelsior",
+    "summary": "Nouvelle sous-espèce humaine issue de la GTS Therapy, composée exclusivement de femmes de 15 à 20 mètres.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "Société"
+    ],
+    "facts": {
+      "Population 2075": "≈ 5 000",
+      "Taille": "15–20 m",
+      "Répartition": "55 Districts Excelsior",
+      "Ratio": "≈ 1 pour 2 millions d’humains"
+    },
+    "sections": [
+      {
+        "title": "Biologie",
+        "text": "Squelette renforcé, nouvelle architecture musculaire, cœur multichambre et métabolisme réécrit."
+      },
+      {
+        "title": "Statut social",
+        "text": "L’Ascension constitue la plus haute distinction du monde de 2075."
+      }
+    ],
+    "relations": [
+      "gts-therapy",
+      "novagen-institute",
+      "districts-excelsior"
+    ]
+  },
+  {
+    "id": "gts-therapy",
+    "category": "technologies",
+    "type": "Technologie",
+    "title": "GTS Therapy",
+    "subtitle": "Genetic Titan Sequence Therapy",
+    "summary": "Thérapie de réécriture biologique présentée en 2050 et attribuée au mérite.",
+    "year": 2050,
+    "tags": [
+      "Génétique",
+      "Médecine"
+    ],
+    "facts": {
+      "Présentation": "2050",
+      "Durée": "18 à 24 mois",
+      "Accès": "Sélection au mérite",
+      "Compatibilité": "Femmes uniquement"
+    },
+    "sections": [
+      {
+        "title": "Protocole",
+        "text": "La thérapie transforme progressivement une Homo sapiens en Homo excelsior sous contrôle médical continu."
+      },
+      {
+        "title": "Limites",
+        "items": [
+          "Incompatibilité physiologique masculine",
+          "Capacité annuelle limitée",
+          "Ressources biomédicales rares"
+        ]
+      }
+    ],
+    "relations": [
+      "homo-excelsior",
+      "novagen-institute",
+      "ascension-ring"
+    ]
+  },
+  {
+    "id": "novagen-institute",
+    "category": "institutions",
+    "type": "Institution",
+    "title": "Novagen Institute",
+    "summary": "Institution scientifique multinationale responsable de la sélection, de l’Ascension et du suivi des Homo excelsior.",
+    "year": 2046,
+    "tags": [
+      "Science",
+      "Gouvernance"
+    ],
+    "facts": {
+      "Siège": "Genève",
+      "Campus": "Boston, Tokyo, Singapour, São Paulo, Nairobi",
+      "Mission": "Superviser la GTS Therapy"
+    },
+    "sections": [
+      {
+        "title": "Rôle",
+        "text": "Novagen valide l’éligibilité, organise les équipes cliniques et garantit l’équilibre mondial des Ascensions."
+      }
+    ],
+    "relations": [
+      "gts-therapy",
+      "olympia",
+      "ascension-ring",
+      "homo-excelsior"
+    ]
+  },
+  {
+    "id": "olympia",
+    "category": "lieux",
+    "type": "District de rang I",
+    "title": "Olympia",
+    "subtitle": "Genève, Suisse",
+    "summary": "Capitale mondiale Homo excelsior et siège principal du Novagen Institute.",
+    "year": 2053,
+    "tags": [
+      "Suisse",
+      "Rang I",
+      "Europe"
+    ],
+    "facts": {
+      "Rang": "I",
+      "Population excelsior": "≈ 350",
+      "Ville associée": "Genève",
+      "Statut": "Capitale mondiale"
+    },
+    "sections": [
+      {
+        "title": "Urbanisme",
+        "text": "Olympia réunit gouvernance, diplomatie, médecine et résidences monumentales sur les rives du Léman."
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "anahita-rahimi",
+      "districts-excelsior"
+    ]
+  },
+  {
+    "id": "takamagahara",
+    "category": "lieux",
+    "type": "District de rang I",
+    "title": "Takamagahara",
+    "subtitle": "Tokyo, Japon",
+    "summary": "Capitale mondiale asiatique et centre majeur de nanobiologie.",
+    "year": 2056,
+    "tags": [
+      "Japon",
+      "Rang I",
+      "Asie"
+    ],
+    "facts": {
+      "Rang": "I",
+      "Population excelsior": "≈ 350",
+      "Ville associée": "Tokyo"
+    },
+    "sections": [
+      {
+        "title": "Identité",
+        "text": "Architecture verticale, jardins suspendus et intégration au campus Novagen de Tokyo."
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "districts-excelsior"
+    ]
+  },
+  {
+    "id": "liberty-heights",
+    "category": "lieux",
+    "type": "District de rang I",
+    "title": "Liberty Heights",
+    "subtitle": "New York, États-Unis",
+    "summary": "Capitale mondiale nord-américaine tournée vers la diplomatie, les médias et la finance.",
+    "year": 2057,
+    "tags": [
+      "États-Unis",
+      "Rang I",
+      "Amérique du Nord"
+    ],
+    "facts": {
+      "Rang": "I",
+      "Population excelsior": "≈ 350",
+      "Ville associée": "New York"
+    },
+    "sections": [
+      {
+        "title": "Rayonnement",
+        "text": "Liberty Heights accueille des institutions internationales et des studios médiatiques à échelle excelsior."
+      }
+    ],
+    "relations": [
+      "districts-excelsior"
+    ]
+  },
+  {
+    "id": "meridian",
+    "category": "lieux",
+    "type": "District de rang I",
+    "title": "Meridian",
+    "subtitle": "Singapour",
+    "summary": "Capitale mondiale spécialisée dans la fabrication biomédicale et la logistique.",
+    "year": 2058,
+    "tags": [
+      "Singapour",
+      "Rang I",
+      "Asie"
+    ],
+    "facts": {
+      "Rang": "I",
+      "Population excelsior": "≈ 350",
+      "Ville associée": "Singapour"
+    },
+    "sections": [
+      {
+        "title": "Industrie",
+        "text": "Meridian coordonne une part essentielle de la production de biomatériaux Novagen."
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "districts-excelsior"
+    ]
+  },
+  {
+    "id": "sky-mirage",
+    "category": "lieux",
+    "type": "District de rang I",
+    "title": "Sky Mirage",
+    "subtitle": "Dubaï, Émirats arabes unis",
+    "summary": "Capitale mondiale du luxe, de l’architecture monumentale et des échanges intercontinentaux.",
+    "year": 2060,
+    "tags": [
+      "Émirats",
+      "Rang I",
+      "Moyen-Orient"
+    ],
+    "facts": {
+      "Rang": "I",
+      "Population excelsior": "≈ 350",
+      "Ville associée": "Dubaï"
+    },
+    "sections": [
+      {
+        "title": "Architecture",
+        "text": "Tours-palais, infrastructures climatiques et boulevards cérémoniels définissent Sky Mirage."
+      }
+    ],
+    "relations": [
+      "districts-excelsior"
+    ]
+  },
+  {
+    "id": "lumiere",
+    "category": "lieux",
+    "type": "District de rang II",
+    "title": "Lumière",
+    "subtitle": "Paris, France",
+    "summary": "Capitale continentale européenne dédiée à la culture, la mode et la diplomatie.",
+    "year": 2061,
+    "tags": [
+      "France",
+      "Rang II",
+      "Europe"
+    ],
+    "facts": {
+      "Rang": "II",
+      "Population excelsior": "≈ 170",
+      "Ville associée": "Paris"
+    },
+    "sections": [
+      {
+        "title": "Culture",
+        "text": "Lumière est l’un des centres mondiaux de la haute couture à échelle excelsior."
+      }
+    ],
+    "relations": [
+      "rahimi-atelier",
+      "districts-excelsior"
+    ]
+  },
+  {
+    "id": "genesis",
+    "category": "lieux",
+    "type": "District de rang II",
+    "title": "Genesis",
+    "subtitle": "Boston, États-Unis",
+    "summary": "Capitale continentale scientifique organisée autour du campus biomédical de Boston.",
+    "year": 2055,
+    "tags": [
+      "États-Unis",
+      "Rang II",
+      "Science"
+    ],
+    "facts": {
+      "Rang": "II",
+      "Population excelsior": "≈ 170",
+      "Ville associée": "Boston"
+    },
+    "sections": [
+      {
+        "title": "Recherche",
+        "text": "Genesis concentre la recherche en IA médicale et en suivi post-Ascension."
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "districts-excelsior"
+    ]
+  },
+  {
+    "id": "districts-excelsior",
+    "category": "concepts",
+    "type": "Urbanisme",
+    "title": "Districts Excelsior",
+    "summary": "Réseau mondial de 55 quartiers conçus pour la coexistence entre Homo sapiens et Homo excelsior.",
+    "year": 2053,
+    "tags": [
+      "Urbanisme",
+      "Infrastructure"
+    ],
+    "facts": {
+      "Nombre": "55",
+      "Rangs": "I, II et III",
+      "Fonction": "Habitat, services, diplomatie et industrie"
+    },
+    "sections": [
+      {
+        "title": "Organisation",
+        "text": "Chaque district combine niveaux humains, logistiques intermédiaires et espaces excelsior."
+      }
+    ],
+    "relations": [
+      "olympia",
+      "takamagahara",
+      "liberty-heights",
+      "meridian",
+      "sky-mirage",
+      "lumiere",
+      "genesis",
+      "homo-excelsior"
+    ]
+  },
+  {
+    "id": "rahimi-atelier",
+    "category": "institutions",
+    "type": "Entreprise",
+    "title": "Rahimi Atelier",
+    "summary": "Maison internationale de latex couture et de hijab couture fondée par Anahita Rahimi.",
+    "year": 2070,
+    "tags": [
+      "Mode",
+      "Luxe",
+      "Iran"
+    ],
+    "facts": {
+      "Fondatrice": "Anahita Rahimi",
+      "Secteur": "Haute couture",
+      "Siège créatif": "Téhéran"
+    },
+    "sections": [
+      {
+        "title": "Style",
+        "text": "La maison associe inspirations persanes, luxe parisien et construction architecturale."
+      }
+    ],
+    "relations": [
+      "anahita-rahimi",
+      "lumiere",
+      "olympia"
+    ]
+  },
+  {
+    "id": "ascension-ring",
+    "category": "objets",
+    "type": "Objet cérémoniel",
+    "title": "Ascension Ring",
+    "summary": "Anneau remis lors de la cérémonie marquant l’achèvement d’une Ascension.",
+    "year": 2050,
+    "tags": [
+      "Symbole",
+      "Cérémonie"
+    ],
+    "facts": {
+      "Fonction": "Marque officielle d’Ascension",
+      "Autorité": "Novagen Institute"
+    },
+    "sections": [
+      {
+        "title": "Symbolique",
+        "text": "L’anneau incarne le mérite, la responsabilité et l’entrée dans Homo excelsior."
+      }
+    ],
+    "relations": [
+      "gts-therapy",
+      "novagen-institute",
+      "anahita-rahimi"
+    ]
+  }
 ];

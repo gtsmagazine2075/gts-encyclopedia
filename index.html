@@ -4,8 +4,8 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#080808" />
-  <meta name="description" content="GTS Encyclopedia — canon officiel et moteur de connaissances de l'univers GTS." />
-  <title>GTS Encyclopedia — Sprint A2</title>
+  <meta name="description" content="GTS Encyclopedia — canon officiel, graphe de connaissances et studio éditorial de l’univers GTS." />
+  <title>GTS Encyclopedia — Sprint A3</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -14,48 +14,26 @@
 <body>
   <div class="app-shell">
     <aside class="sidebar" id="sidebar">
-      <button class="brand" data-view="home" aria-label="Accueil">
-        <span class="brand-mark">GTS</span>
-        <span><strong>ENCYCLOPEDIA</strong><small>CANON ENGINE · 2075</small></span>
-      </button>
+      <button class="brand" data-view="home" aria-label="Accueil"><span class="brand-mark">GTS</span><span><strong>ENCYCLOPEDIA</strong><small>CANON ENGINE · 2075</small></span></button>
       <nav id="categoryNav" aria-label="Navigation principale"></nav>
       <div class="sidebar-tools">
+        <button class="tool-btn" data-view="timeline"><span>◴</span> Chronologie</button>
+        <button class="tool-btn" data-view="districts"><span>◎</span> Districts</button>
+        <button class="tool-btn" data-view="studio"><span>✦</span> Studio éditorial</button>
+        <button class="tool-btn" data-view="audit"><span>✓</span> Audit du canon</button>
         <button class="tool-btn" data-view="favorites"><span>☆</span> Favoris <small id="favoriteCount">0</small></button>
         <button class="tool-btn" data-view="recent"><span>◷</span> Consultés récemment</button>
         <button class="tool-btn" id="editorBtn"><span>⌘</span> Mode éditeur</button>
       </div>
-      <div class="sidebar-footer"><strong>SPRINT A2</strong><span>v1.1.0 · Foundation</span></div>
+      <div class="sidebar-footer"><strong>SPRINT A3</strong><span>v1.2.0 · Knowledge Core</span></div>
     </aside>
-
     <main>
-      <header class="topbar">
-        <button class="icon-btn mobile-only" id="menuBtn" aria-label="Ouvrir le menu">☰</button>
-        <button class="search-launch" id="searchLaunch"><span>⌕</span><span>Rechercher dans le canon…</span><kbd>Ctrl K</kbd></button>
-        <button class="icon-btn" id="themeBtn" aria-label="Changer le thème">◐</button>
-      </header>
-
+      <header class="topbar"><button class="icon-btn mobile-only" id="menuBtn" aria-label="Ouvrir le menu">☰</button><button class="search-launch" id="searchLaunch"><span>⌕</span><span>Rechercher dans le canon…</span><kbd>Ctrl K</kbd></button><button class="icon-btn" id="themeBtn" aria-label="Changer le thème">◐</button></header>
       <div id="appView"></div>
     </main>
   </div>
-
-  <div class="search-overlay hidden" id="searchOverlay" role="dialog" aria-modal="true" aria-label="Recherche globale">
-    <div class="search-backdrop" data-close-search></div>
-    <section class="search-panel">
-      <div class="search-field"><span>⌕</span><input id="searchInput" type="search" placeholder="Personnage, lieu, technologie…" autocomplete="off"/><kbd>Esc</kbd></div>
-      <div id="searchResults" class="search-results"></div>
-    </section>
-  </div>
-
-  <div class="modal hidden" id="detailModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-    <div class="modal-backdrop" data-close-modal></div>
-    <article class="modal-panel">
-      <button class="modal-close" data-close-modal aria-label="Fermer">×</button>
-      <div id="modalContent"></div>
-    </article>
-  </div>
-
+  <div class="search-overlay hidden" id="searchOverlay" role="dialog" aria-modal="true"><div class="search-backdrop" data-close-search></div><section class="search-panel"><div class="search-field"><span>⌕</span><input id="searchInput" type="search" placeholder="Personnage, lieu, technologie…" autocomplete="off"/><kbd>Esc</kbd></div><div id="searchResults" class="search-results"></div></section></div>
+  <div class="modal hidden" id="detailModal" role="dialog" aria-modal="true"><div class="modal-backdrop" data-close-modal></div><article class="modal-panel"><button class="modal-close" data-close-modal>×</button><div id="modalContent"></div></article></div>
   <div class="toast" id="toast"></div>
-  <script src="data.js"></script>
-  <script src="app.js"></script>
-</body>
-</html>
+  <script src="data.js"></script><script src="app.js"></script>
+</body></html>

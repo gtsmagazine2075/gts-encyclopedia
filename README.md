@@ -1,18 +1,7 @@
-# GTS Encyclopedia — Sprint A2
+# GTS Encyclopedia — Sprint A3
 
-Version **v1.1.0 — Foundation**.
+Version **v1.2.0 — Knowledge Core**.
 
-## Nouveautés
+Fonctionnalités : navigation encyclopédique, recherche, fiches structurées, relations explicites, chronologie, atlas des Districts, favoris, audit de complétude, export JSON et Studio éditorial générant des briefs à partir du canon.
 
-- tableau de bord éditorial ;
-- recherche globale instantanée (`Ctrl + K`) ;
-- navigation par catégories et tags ;
-- fiches liées et navigation transversale ;
-- favoris et historique local ;
-- mode éditeur affichant les données structurées ;
-- interface responsive et thème clair/sombre ;
-- architecture prête pour un futur export JSON du GTS CMS.
-
-## Publication GitHub Pages
-
-Déposer tous les fichiers à la racine du dépôt puis valider les changements. GitHub Pages republie automatiquement la branche `main`.
+Déploiement : GitHub Pages depuis la branche `main`, dossier `/ (root)`.
