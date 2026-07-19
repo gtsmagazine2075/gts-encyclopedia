@@ -1,6 +1,6 @@
-# GTS Encyclopedia — Sprint A5
+# GTS Encyclopedia — Sprint A6
 
-Version **1.4.0 — Canon Database**.
+Version **1.5.0 — Canon Database**.
 
 Fonctionnalités réellement ajoutées :
 - identifiants canoniques stables ;
@@ -13,3 +13,8 @@ Fonctionnalités réellement ajoutées :
 - export JSON A4.
 
 Déploiement : envoyer tous les fichiers à la racine du dépôt GitHub Pages.
+
+
+Ajouts:
+- Vue Atlas.
+- Préparation navigation géographique.
