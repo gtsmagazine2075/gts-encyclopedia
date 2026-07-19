@@ -434,3 +434,31 @@ window.GTS_DATA = [
     ]
   }
 ];
+
+
+// Sprint A4 — couche de données canonique.
+const A4_META = {
+  "anahita-rahimi": { canonId:"GTS-PER-0001", status:"canon", aliases:["The Iranian Goddess"], source:"GTS CMS", updated:"2075-06-12", visual:{subject:"Iranian Homo excelsior woman, 18 metres tall", required:["architectural hijab","luxury latex couture","Ascension Ring"], forbidden:["visible hair","casual denim","human-scale proportions"]}},
+  "homo-excelsior": { canonId:"GTS-CON-0001", status:"canon", aliases:["Giantesses"], source:"GTS CMS", updated:"2075-05-30", visual:{subject:"scientifically credible 15–20 metre Homo excelsior woman", required:["realistic scale references","reinforced anatomy"], forbidden:["fantasy magic","cartoon anatomy"]}},
+  "gts-therapy": { canonId:"GTS-TEC-0001", status:"canon", aliases:["Genetic Titan Sequence Therapy"], source:"GTS CMS", updated:"2075-04-18"},
+  "novagen-institute": { canonId:"GTS-INS-0001", status:"canon", aliases:["Novagen"], source:"GTS CMS", updated:"2075-05-08"},
+  "olympia": { canonId:"GTS-LOC-0001", status:"canon", aliases:["District Olympia"], source:"GTS CMS", updated:"2075-06-02", visual:{subject:"monumental Excelsior district beside Geneva and Lake Geneva", required:["15–20 metre scale architecture","Novagen visual language"], forbidden:["ordinary human-scale streets"]}},
+  "takamagahara": { canonId:"GTS-LOC-0002", status:"canon", aliases:[], source:"GTS CMS", updated:"2075-03-25"},
+  "liberty-heights": { canonId:"GTS-LOC-0003", status:"canon", aliases:[], source:"GTS CMS", updated:"2075-03-25"},
+  "meridian": { canonId:"GTS-LOC-0004", status:"canon", aliases:[], source:"GTS CMS", updated:"2075-03-25"}
+};
+window.GTS_DATA = window.GTS_DATA.map((entry, index) => ({
+  canonId: `GTS-${String(index + 1).padStart(4, "0")}`,
+  status: "draft",
+  aliases: [],
+  source: "GTS Encyclopedia",
+  updated: "2075-01-01",
+  ...entry,
+  ...(A4_META[entry.id] || {})
+}));
+window.GTS_SCHEMA = {
+  version: "1.3.0",
+  required: ["canonId","id","title","category","type","summary","status","source","updated"],
+  recommended: ["year","tags","facts","sections","relations","aliases","visual"],
+  statuses: ["canon","draft","review"]
+};
