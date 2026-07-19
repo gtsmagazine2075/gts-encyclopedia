@@ -462,3 +462,13 @@ window.GTS_SCHEMA = {
   recommended: ["year","tags","facts","sections","relations","aliases","visual"],
   statuses: ["canon","draft","review"]
 };
+,
+{
+"id":"novagen-institute",
+"category":"institutions",
+"type":"Institution",
+"title":"Novagen Institute",
+"summary":"Institution scientifique internationale supervisant la GTS Therapy.",
+"relations":["gts-therapy","homo-excelsior","olympia"]
+}
+
