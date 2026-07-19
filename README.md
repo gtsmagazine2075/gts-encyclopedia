@@ -1,20 +1,8 @@
-# GTS Encyclopedia — Sprint A6
+# GTS Encyclopedia — Sprint A7
 
-Version **1.5.0 — Canon Database**.
+Version 1.6.0
 
-Fonctionnalités réellement ajoutées :
-- identifiants canoniques stables ;
-- statuts canon / brouillon / révision ;
-- provenance et date de mise à jour ;
-- schéma de données obligatoire et recommandé ;
-- calcul de complétude par fiche ;
-- vue Base de connaissances ;
-- alias et spécifications visuelles destinées aux futurs articles et images ;
-- export JSON A4.
-
-Déploiement : envoyer tous les fichiers à la racine du dépôt GitHub Pages.
-
-
-Ajouts:
-- Vue Atlas.
-- Préparation navigation géographique.
+- Ajout d'une vue Atlas.
+- Navigation par catégories.
+- Section 'Voir aussi' basée sur les relations.
+- Filtre de recherche par type.
