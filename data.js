@@ -27,35 +27,67 @@ window.GTS_DATA = [
       "Résidence principale": "Olympia, Genève",
       "Résidence secondaire": "Téhéran",
       "Langues": "Farsi, anglais et français",
-      "Citation": "« I am not a fantasy. I am the future. »"
+      "Citation": "« I am not a fantasy. I am the future. »",
+      "Date de naissance": "3 décembre 2048",
+      "Signe astrologique": "♐ Sagittaire",
+      "Nom persan": "آناهیتا رحیمی",
+      "Espèce": "Homo excelsior",
+      "Main dominante": "Droite"
     },
     "sections": [
       {
-        "title": "Biographie",
-        "text": "Née à Shiraz en 2048, Anahita Rahimi étudie le design de mode et le management du luxe avant de devenir mannequin internationale puis entrepreneuse. Sa contribution à la couture spécialisée et son influence culturelle conduisent Novagen à la sélectionner au mérite."
+        "title": "Résumé",
+        "text": "Anahita Rahimi est une créatrice de haute couture iranienne, fondatrice de Rahimi Atelier et l'une des figures majeures des Homo excelsior. Son parcours symbolise le mérite, l'excellence scientifique et l'influence culturelle de la seconde génération."
       },
       {
-        "title": "Ascension",
-        "text": "Son protocole dure entre dix-huit et vingt-quatre mois au campus de Genève. La cérémonie de remise de l’Ascension Ring consacre son entrée dans la Génération II des Homo excelsior."
+        "title": "Enfance et formation",
+        "text": "Née le 3 décembre 2048 à Shiraz, elle grandit dans un environnement où l'art, l'architecture et la culture persane nourrissent sa sensibilité. Elle poursuit des études de design de mode et de management du luxe avant d'entamer une carrière internationale."
       },
       {
         "title": "Rahimi Atelier",
-        "text": "Elle dirige une maison internationale spécialisée dans le latex haute couture et le hijab couture, disposant de boutiques mondiales, de collections limitées et de plusieurs centaines d’employés."
+        "text": "Elle fonde Rahimi Atelier, maison spécialisée dans le latex haute couture et le hijab couture. Ses créations associent patrimoine persan, innovation textile et esthétique futuriste. La maison emploie plusieurs centaines de personnes et possède des boutiques internationales."
       },
       {
-        "title": "Signature visuelle",
+        "title": "Sélection par Novagen",
+        "text": "Sélectionnée uniquement sur la base de son mérite et de son influence, elle rejoint le Novagen Institute où elle suit un protocole d'Ascension de dix-huit à vingt-quatre mois."
+      },
+      {
+        "title": "Ascension",
+        "text": "À l'issue de la cérémonie officielle, elle reçoit son Ascension Ring et devient une Homo excelsior de 18 mètres appartenant à la Génération II."
+      },
+      {
+        "title": "Apparence officielle",
         "items": [
-          "Latex haute couture brillant aux coutures invisibles",
-          "Hijab architectural parfaitement ajusté, sans cheveux visibles",
-          "Silhouette élégante, futuriste et ajustée",
-          "Palette noir profond, bleu pétrole, bleu glacier, gris acier et ivoire",
-          "Accents or, platine et argent",
-          "Influences persanes, luxe parisien et construction architecturale"
+          "18 mètres",
+          "Latex haute couture",
+          "Hijab architectural",
+          "Cheveux toujours dissimulés",
+          "Palette : noir profond, bleu pétrole, bleu glacier, gris acier, ivoire",
+          "Accents or, argent et platine",
+          "Ascension Ring visible"
         ]
       },
       {
-        "title": "Rôle public",
-        "text": "Anahita agit comme ambassadrice culturelle, mécène humanitaire et figure diplomatique. Elle soutient également les infrastructures monumentales et peut contribuer volontairement à la dissuasion stratégique dans le cadre des normes internationales."
+        "title": "Personnalité",
+        "items": [
+          "Visionnaire",
+          "Disciplinée",
+          "Calme",
+          "Exigeante",
+          "Bienveillante",
+          "Perfectionniste",
+          "Diplomate"
+        ]
+      },
+      {
+        "title": "Chronologie",
+        "items": [
+          "2048 : Naissance à Shiraz",
+          "2069 : Fondation de Rahimi Atelier",
+          "2071 : Sélection par Novagen",
+          "2073 : Ascension",
+          "2075 : Figure internationale des Homo excelsior"
+        ]
       }
     ],
     "relations": [
@@ -2698,32 +2730,3 @@ window.GTS_DATA = [
     "updated": "2075-07-20"
   }
 ];
-
-window.GTS_SCHEMA = {
-  "version": "1.7.0-b2-personnages",
-  "required": [
-    "canonId",
-    "id",
-    "title",
-    "category",
-    "type",
-    "summary",
-    "status",
-    "source",
-    "updated"
-  ],
-  "recommended": [
-    "year",
-    "tags",
-    "facts",
-    "sections",
-    "relations",
-    "aliases",
-    "visual"
-  ],
-  "statuses": [
-    "canon",
-    "draft",
-    "review"
-  ]
-};
