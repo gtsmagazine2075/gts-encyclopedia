@@ -368,7 +368,7 @@ window.GTS_DATA = [
   },
   {
     "id": "biologie-excelsior",
-    "category": "sciences",
+    "category": "technologies",
     "type": "Physiologie",
     "title": "Biologie Homo excelsior",
     "summary": "Ensemble des adaptations permettant à un organisme humain de fonctionner durablement à une taille de 15 à 20 mètres.",
@@ -419,7 +419,7 @@ window.GTS_DATA = [
   },
   {
     "id": "longevite-excelsior",
-    "category": "sciences",
+    "category": "technologies",
     "type": "Médecine régénérative",
     "title": "Longévité Homo excelsior",
     "summary": "Extension crédible de l’espérance de vie résultant de la réécriture métabolique et des mécanismes de réparation.",
@@ -454,7 +454,7 @@ window.GTS_DATA = [
   },
   {
     "id": "reproduction-excelsior",
-    "category": "sciences",
+    "category": "technologies",
     "type": "Biologie reproductive",
     "title": "Reproduction des Homo excelsior",
     "summary": "Les Homo excelsior ne peuvent pas mener une grossesse à terme ; la reproduction repose sur la procréation assistée et l’ectogenèse.",
@@ -749,7 +749,7 @@ window.GTS_DATA = [
   },
   {
     "id": "chronologie-gts",
-    "category": "chronologie",
+    "category": "concepts",
     "type": "Chronologie canonique",
     "title": "Chronologie fondatrice GTS",
     "summary": "Principaux jalons menant à la civilisation Homo excelsior de 2075.",
