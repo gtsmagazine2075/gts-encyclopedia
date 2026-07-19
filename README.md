@@ -1,16 +1,20 @@
-# GTS Encyclopedia — Sprint B2 v1.7.0
+# GTS Encyclopedia — Sprint C2 v1.9.0
 
-Application web statique prête pour GitHub Pages.
+## Master Entry : Anahita Rahimi
 
-## Contenu du sprint
+Cette version transforme la fiche d’Anahita Rahimi en modèle premium réutilisable pour les futures fiches de personnages géants.
 
-- conservation intégrale du Canon Core B1 ;
-- enrichissement complet de la fiche d’Anahita Rahimi ;
-- intégration des six membres scientifiques du Conseil des Fondateurs ;
-- initiales et disciplines canoniques conservées ;
-- identités non définies explicitement marquées `review` et « à confirmer » ;
-- nouvelles relations entre les personnes, Novagen, les technologies et les phases d’Ascension.
+### Implémenté
 
-## Déploiement
+- Hero éditorial avec identité, citation et badges canoniques.
+- Tableau de bord synthétique.
+- Infobox complète : état civil, biologie, carrière, formation, résidences et affiliations.
+- Sommaire interne.
+- Biographie détaillée et sections thématiques.
+- Chronologie personnelle graphique.
+- Galerie prête à accueillir des illustrations officielles.
+- Relations canoniques cliquables.
+- Métadonnées et gabarit `personnage-geante-v1`.
+- Affichage responsive ordinateur, tablette et mobile.
 
-Téléverser à la racine du dépôt GitHub Pages : `index.html`, `styles.css`, `app.js`, `data.js`, `_headers` et `README.md`.
+Les autres fiches conservent leur rendu existant. Le nouveau moteur premium est activé uniquement lorsque la donnée contient `template: "personnage-geante-v1"`.

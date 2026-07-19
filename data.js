@@ -4,8 +4,8 @@ window.GTS_DATA = [
     "category": "personnages",
     "type": "Personnage",
     "title": "Anahita Rahimi",
-    "subtitle": "The Iranian Goddess · Génération II",
-    "summary": "Créatrice iranienne née à Shiraz, fondatrice de Rahimi Atelier et Homo excelsior de 18 mètres, devenue une figure mondiale de la mode, du mérite et de la diplomatie culturelle.",
+    "subtitle": "The Iranian Goddess · Homo excelsior de Génération II",
+    "summary": "Créatrice iranienne de haute couture, fondatrice et CEO de Rahimi Atelier, Anahita Rahimi est une Homo excelsior de 18 mètres devenue l’une des principales figures mondiales de la mode, du mérite et de la diplomatie culturelle en 2075.",
     "year": 2075,
     "tags": [
       "Iran",
@@ -15,79 +15,79 @@ window.GTS_DATA = [
       "Diplomatie culturelle"
     ],
     "facts": {
-      "Naissance": "2048, Shiraz, Iran",
-      "Âge en 2075": "27 ans",
+      "Nom complet": "Anahita Rahimi",
+      "Nom persan": "آناهیتا رحیمی",
+      "Naissance": "3 décembre 2048, Shiraz, Iran",
+      "Signe astrologique": "♐ Sagittaire",
       "Nationalité": "Iranienne",
+      "Espèce": "Homo excelsior",
       "Génération": "II",
       "Taille avant / après": "1,72 m / 18 m",
-      "Groupe sanguin": "O+",
-      "Yeux": "Brun foncé",
-      "Cheveux": "Noirs, toujours dissimulés",
       "Fonction": "Fondatrice et CEO de Rahimi Atelier",
       "Résidence principale": "Olympia, Genève",
-      "Résidence secondaire": "Téhéran",
       "Langues": "Farsi, anglais et français",
-      "Citation": "« I am not a fantasy. I am the future. »",
-      "Date de naissance": "3 décembre 2048",
-      "Signe astrologique": "♐ Sagittaire",
-      "Nom persan": "آناهیتا رحیمی",
-      "Espèce": "Homo excelsior",
-      "Main dominante": "Droite"
+      "Citation": "« I am not a fantasy. I am the future. »"
     },
     "sections": [
       {
         "title": "Résumé",
-        "text": "Anahita Rahimi est une créatrice de haute couture iranienne, fondatrice de Rahimi Atelier et l'une des figures majeures des Homo excelsior. Son parcours symbolise le mérite, l'excellence scientifique et l'influence culturelle de la seconde génération."
+        "text": "Anahita Rahimi est une créatrice de haute couture iranienne et l’une des personnalités Homo excelsior les plus influentes de 2075. Fondatrice de Rahimi Atelier, elle a imposé une esthétique mêlant héritage persan, luxe parisien, architecture vestimentaire et matériaux de pointe. Son Ascension, accordée au mérite par le Novagen Institute, a fait d’elle un symbole international d’excellence, d’indépendance et de responsabilité."
       },
       {
         "title": "Enfance et formation",
-        "text": "Née le 3 décembre 2048 à Shiraz, elle grandit dans un environnement où l'art, l'architecture et la culture persane nourrissent sa sensibilité. Elle poursuit des études de design de mode et de management du luxe avant d'entamer une carrière internationale."
+        "text": "Née le 3 décembre 2048 à Shiraz, Anahita grandit au contact de l’art, de l’architecture et des traditions visuelles persanes. Cette culture nourrit très tôt son rapport aux volumes, aux motifs et à la mise en scène du vêtement. Elle se forme ensuite au design de mode et au management du luxe, maîtrise le farsi, l’anglais et le français, puis développe une carrière internationale dans la création et le mannequinat."
       },
       {
-        "title": "Rahimi Atelier",
-        "text": "Elle fonde Rahimi Atelier, maison spécialisée dans le latex haute couture et le hijab couture. Ses créations associent patrimoine persan, innovation textile et esthétique futuriste. La maison emploie plusieurs centaines de personnes et possède des boutiques internationales."
+        "title": "Fondation de Rahimi Atelier",
+        "text": "Anahita fonde Rahimi Atelier en 2069. La maison se spécialise dans le latex haute couture et le hijab couture, avec des pièces sans coutures visibles, sculpturales et parfaitement adaptées à la silhouette. Son langage esthétique associe inspiration persane, luxe parisien, lignes futuristes et construction architecturale. En 2075, la maison possède des boutiques internationales, emploie plusieurs centaines de personnes et produit des collections limitées destinées aux clientèles humaines et Homo excelsior."
       },
       {
-        "title": "Sélection par Novagen",
-        "text": "Sélectionnée uniquement sur la base de son mérite et de son influence, elle rejoint le Novagen Institute où elle suit un protocole d'Ascension de dix-huit à vingt-quatre mois."
+        "title": "Sélection par le Novagen Institute",
+        "text": "Anahita n’achète pas son Ascension : elle est sélectionnée au mérite. Sa créativité, sa capacité à bâtir une institution durable, son rayonnement culturel et ses engagements humanitaires répondent aux critères du Conseil des Fondateurs. Elle rejoint le campus de Genève et commence un protocole de transformation long de dix-huit à vingt-quatre mois."
       },
       {
         "title": "Ascension",
-        "text": "À l'issue de la cérémonie officielle, elle reçoit son Ascension Ring et devient une Homo excelsior de 18 mètres appartenant à la Génération II."
+        "text": "Le protocole réécrit progressivement sa biologie, renforce son squelette, transforme son architecture musculaire et adapte ses systèmes cardiovasculaire, respiratoire et métabolique à une stature de 18 mètres. À l’issue du traitement, elle participe à la cérémonie officielle de l’Ascension et reçoit son Ascension Ring, qu’elle porte ensuite comme signe de mérite, de responsabilité et d’appartenance à Homo excelsior."
+      },
+      {
+        "title": "Vie en 2075",
+        "text": "Anahita réside principalement dans un domaine monumental d’Olympia, à Genève, avec vues sur le Léman, le Jet d’Eau, le campus Novagen et le Mont-Blanc. Elle conserve une résidence secondaire à Téhéran, la Rahimi Atelier Creative House. Elle dirige sa maison, soutient de grands projets d’infrastructure, participe à la diplomatie culturelle et finance des actions humanitaires. Son rôle stratégique demeure volontaire et encadré par les normes internationales."
       },
       {
         "title": "Apparence officielle",
+        "text": "Anahita mesure 18 mètres après son Ascension. Elle possède des yeux brun foncé et des cheveux noirs, toujours entièrement dissimulés. Sa présence est calme, précise et monumentale. Sa posture droite, sa gestuelle maîtrisée et son regard direct renforcent l’impression d’autorité sans agressivité. Toute représentation doit conserver une échelle crédible entre elle, les bâtiments et les personnes humaines."
+      },
+      {
+        "title": "Style vestimentaire",
         "items": [
-          "18 mètres",
-          "Latex haute couture",
-          "Hijab architectural",
-          "Cheveux toujours dissimulés",
-          "Palette : noir profond, bleu pétrole, bleu glacier, gris acier, ivoire",
-          "Accents or, argent et platine",
-          "Ascension Ring visible"
+          "Latex haute couture brillant, aux coutures invisibles",
+          "Hijab architectural ou sculptural, parfaitement ajusté, sans cheveux visibles",
+          "Silhouette ajustée, élégante, futuriste et architecturale",
+          "Palette principale : noir profond, bleu pétrole, bleu glacier, gris acier et ivoire",
+          "Accents métalliques : or, platine et argent",
+          "Manches fréquemment structurées ou bouffantes",
+          "Ascension Ring toujours visible dans les représentations officielles",
+          "Aucun coton, jean, cuir classique ni vêtement de sport"
         ]
       },
       {
         "title": "Personnalité",
+        "text": "Visionnaire, disciplinée et perfectionniste, Anahita associe une grande exigence professionnelle à une maîtrise calme de son image publique. Elle valorise le mérite, l’autonomie, la dignité et la transmission. Son sens diplomatique lui permet de représenter à la fois son pays, sa maison et la communauté Homo excelsior sans réduire son identité à son Ascension."
+      },
+      {
+        "title": "Capacités et rôle public",
         "items": [
-          "Visionnaire",
-          "Disciplinée",
-          "Calme",
-          "Exigeante",
-          "Bienveillante",
-          "Perfectionniste",
-          "Diplomate"
+          "Force et endurance propres à la biologie Homo excelsior",
+          "Coordination adaptée aux infrastructures de très grande échelle",
+          "Compétences de direction, création, négociation et communication internationale",
+          "Patronage humanitaire et culturel",
+          "Soutien à la conception d’infrastructures excelsior",
+          "Participation volontaire à des missions de dissuasion ou de protection strictement encadrées"
         ]
       },
       {
-        "title": "Chronologie",
-        "items": [
-          "2048 : Naissance à Shiraz",
-          "2069 : Fondation de Rahimi Atelier",
-          "2071 : Sélection par Novagen",
-          "2073 : Ascension",
-          "2075 : Figure internationale des Homo excelsior"
-        ]
+        "title": "Reproduction et descendance",
+        "text": "Comme les autres Homo excelsior, Anahita ne peut pas mener une grossesse à terme. Toute éventuelle parentalité biologique passerait par la procréation médicalement assistée et l’ectogenèse sous supervision du Novagen Institute. Les enfants issus d’une Homo excelsior naissent Homo sapiens et doivent mériter leur propre Ascension."
       }
     ],
     "relations": [
@@ -95,13 +95,145 @@ window.GTS_DATA = [
       "olympia",
       "novagen-institute",
       "homo-excelsior",
-      "gts-therapy"
+      "gts-therapy",
+      "ascension-ring",
+      "districts-excelsior"
     ],
     "canonId": "GTS-PER-0001",
     "status": "canon",
     "aliases": [],
     "source": "GTS Canon",
-    "updated": "2075-07-20"
+    "updated": "2075-07-20",
+    "portrait": {
+      "initials": "AR",
+      "caption": "Portrait canonique en attente d’illustration officielle"
+    },
+    "profile": {
+      "État civil": {
+        "Nom complet": "Anahita Rahimi",
+        "Nom en persan": "آناهیتا رحیمی",
+        "Titre": "The Iranian Goddess",
+        "Sexe": "Femme",
+        "Statut vital": "Vivante",
+        "Date de naissance": "3 décembre 2048",
+        "Âge en 2075": "27 ans",
+        "Signe astrologique": "♐ Sagittaire",
+        "Lieu de naissance": "Shiraz, Iran",
+        "Nationalité": "Iranienne",
+        "Situation familiale": "Non communiquée",
+        "Parents": "Non documentés",
+        "Fratrie": "Non documentée",
+        "Enfants": "Aucun"
+      },
+      "Profil biologique": {
+        "Espèce": "Homo excelsior",
+        "Génération": "II",
+        "Taille avant Ascension": "1,72 m",
+        "Taille après Ascension": "18 m",
+        "Masse": "Classifiée",
+        "Groupe sanguin": "O+",
+        "Yeux": "Brun foncé",
+        "Cheveux": "Noirs, toujours dissimulés",
+        "Main dominante": "Droite"
+      },
+      "Carrière et formation": {
+        "Formation": "Design de mode et management du luxe",
+        "Profession": "Créatrice de haute couture",
+        "Fonctions": "Fondatrice et CEO de Rahimi Atelier",
+        "Spécialités": "Latex haute couture et hijab couture",
+        "Langues": "Farsi, anglais et français",
+        "Fortune": "Non publiée",
+        "Distinctions": "Récompenses internationales dans la mode et l’action humanitaire"
+      },
+      "Résidences et affiliations": {
+        "Résidence principale": "Domaine Rahimi, Olympia, Genève",
+        "Résidence secondaire": "Rahimi Atelier Creative House, Téhéran",
+        "Entreprise": "Rahimi Atelier",
+        "Affiliations": "Novagen Institute · Olympia · Rahimi Atelier",
+        "Religion": "Information privée"
+      }
+    },
+    "highlights": [
+      {
+        "label": "Naissance",
+        "value": "3 déc. 2048"
+      },
+      {
+        "label": "Âge",
+        "value": "27 ans"
+      },
+      {
+        "label": "Signe",
+        "value": "♐ Sagittaire"
+      },
+      {
+        "label": "Taille",
+        "value": "18 m"
+      },
+      {
+        "label": "Génération",
+        "value": "II"
+      },
+      {
+        "label": "Résidence",
+        "value": "Olympia"
+      }
+    ],
+    "quotes": [
+      "I am not a fantasy. I am the future."
+    ],
+    "timeline": [
+      {
+        "year": "2048",
+        "title": "Naissance à Shiraz",
+        "text": "Anahita Rahimi naît le 3 décembre à Shiraz, en Iran."
+      },
+      {
+        "year": "2066–2069",
+        "title": "Formation et débuts internationaux",
+        "text": "Elle étudie le design de mode et le management du luxe, puis développe une carrière internationale."
+      },
+      {
+        "year": "2069",
+        "title": "Fondation de Rahimi Atelier",
+        "text": "Elle fonde une maison de couture consacrée au latex haute couture et au hijab couture."
+      },
+      {
+        "year": "2071",
+        "title": "Sélection par Novagen",
+        "text": "Son mérite, son influence créative et son engagement lui valent d’être retenue pour l’Ascension."
+      },
+      {
+        "year": "2071–2073",
+        "title": "Protocole d’Ascension",
+        "text": "Elle suit durant dix-huit à vingt-quatre mois le protocole médical du Novagen Institute."
+      },
+      {
+        "year": "2073",
+        "title": "Cérémonie de l’Ascension",
+        "text": "Elle reçoit son Ascension Ring et devient une Homo excelsior de Génération II mesurant 18 mètres."
+      },
+      {
+        "year": "2075",
+        "title": "Figure mondiale",
+        "text": "Elle dirige Rahimi Atelier depuis Olympia et agit dans la mode, la diplomatie culturelle et l’humanitaire."
+      }
+    ],
+    "gallery": [
+      {
+        "title": "Portrait officiel",
+        "caption": "Emplacement réservé au portrait canonique d’Anahita Rahimi."
+      },
+      {
+        "title": "Rahimi Atelier",
+        "caption": "Emplacement réservé à une création officielle en latex haute couture."
+      },
+      {
+        "title": "Olympia",
+        "caption": "Emplacement réservé à Anahita dans son domaine principal à Genève."
+      }
+    ],
+    "template": "personnage-geante-v1"
   },
   {
     "id": "homo-excelsior",
