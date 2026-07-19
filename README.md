@@ -17,3 +17,13 @@ Déploiement : envoyer tous les fichiers à la racine du dépôt GitHub Pages.
 
 ## Sprint A5 v1.5.0 — Lot 1 Lore Foundations
 Intégration canonique de la GTS Therapy, Homo excelsior, Novagen Institute, Ascension, biologie, démographie, reproduction, rôles stratégique et industriel, gouvernance et chronologie fondatrice.
+
+
+## Sprint B1 — Canon Core v1.6.0
+
+- 63 fiches structurées
+- Physiologie excelsior détaillée
+- Phases complètes de l’Ascension
+- Réseau scientifique Novagen
+- Urbanisme multi-échelle des Districts
+- Société, droit, prestige et responsabilités

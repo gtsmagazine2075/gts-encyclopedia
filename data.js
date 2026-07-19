@@ -1131,11 +1131,1262 @@ window.GTS_DATA = [
     "aliases": [],
     "source": "GTS Canon",
     "updated": "2075-07-20"
+  },
+  {
+    "id": "architecture-musculaire-excelsior",
+    "category": "technologies",
+    "type": "Physiologie",
+    "title": "Architecture musculaire excelsior",
+    "summary": "Organisation musculaire entièrement repensée pour déplacer un corps de 15 à 20 mètres sans reproduire les limites du muscle humain agrandi.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "Muscles",
+      "Mouvement"
+    ],
+    "facts": {
+      "Principe": "Fibres et attaches adaptées à la très grande échelle",
+      "Fonction": "Force, stabilité et précision",
+      "Origine": "GTS Therapy"
+    },
+    "sections": [
+      {
+        "title": "Fonctionnement",
+        "text": "La musculature excelsior associe puissance, contrôle postural et répartition des contraintes. Elle complète le squelette renforcé au lieu de simplement grossir les structures humaines existantes."
+      }
+    ],
+    "relations": [
+      "biologie-excelsior",
+      "squelette-excelsior",
+      "gts-therapy"
+    ],
+    "canonId": "GTS-TEC-0003",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "squelette-excelsior",
+    "category": "technologies",
+    "type": "Biomatériau vivant",
+    "title": "Squelette excelsior",
+    "summary": "Charpente biologique renforcée supportant la masse et les contraintes mécaniques propres aux Homo excelsior.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "Biomatériaux",
+      "Squelette"
+    ],
+    "facts": {
+      "Matériau": "Composite biologique inédit",
+      "Rôle": "Portance et résistance",
+      "Maintenance": "Réparation cellulaire continue"
+    },
+    "sections": [
+      {
+        "title": "Conception",
+        "text": "Le squelette excelsior repose sur une microarchitecture et un biomatériau qui dépassent la résistance de l’os humain tout en conservant une capacité de croissance et de réparation."
+      }
+    ],
+    "relations": [
+      "biologie-excelsior",
+      "architecture-musculaire-excelsior",
+      "biomateriaux-novagen"
+    ],
+    "canonId": "GTS-TEC-0004",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "coeur-multichambre",
+    "category": "technologies",
+    "type": "Physiologie cardiovasculaire",
+    "title": "Cœur multichambre",
+    "summary": "Organe cardiovasculaire réorganisé afin de maintenir une circulation stable dans un organisme de taille excelsior.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "Cardiologie",
+      "Circulation"
+    ],
+    "facts": {
+      "Architecture": "Multichambre",
+      "Fonction": "Maintien de la pression et du débit",
+      "Suivi": "Contrôle médical permanent"
+    },
+    "sections": [
+      {
+        "title": "Adaptation",
+        "text": "Plusieurs chambres spécialisées répartissent les efforts de pompage et réduisent les pertes de pression liées à la hauteur du corps."
+      }
+    ],
+    "relations": [
+      "biologie-excelsior",
+      "reseau-vasculaire-excelsior",
+      "novagen-institute"
+    ],
+    "canonId": "GTS-TEC-0005",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "reseau-vasculaire-excelsior",
+    "category": "technologies",
+    "type": "Physiologie cardiovasculaire",
+    "title": "Réseau vasculaire excelsior",
+    "summary": "Système circulatoire renforcé et hiérarchisé pour irriguer efficacement l’ensemble du corps excelsior.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "Circulation",
+      "Médecine"
+    ],
+    "facts": {
+      "Résistance": "Parois renforcées",
+      "Organisation": "Réseau hiérarchisé",
+      "Objectif": "Débit stable à grande échelle"
+    },
+    "sections": [
+      {
+        "title": "Rôle",
+        "text": "Le réseau vasculaire fonctionne avec le cœur multichambre et des mécanismes de régulation locale pour protéger les organes et les extrémités."
+      }
+    ],
+    "relations": [
+      "coeur-multichambre",
+      "biologie-excelsior"
+    ],
+    "canonId": "GTS-TEC-0006",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "respiration-excelsior",
+    "category": "technologies",
+    "type": "Physiologie respiratoire",
+    "title": "Respiration excelsior",
+    "summary": "Système respiratoire optimisé pour alimenter une masse musculaire et organique très supérieure à celle d’un Homo sapiens.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "Respiration",
+      "Métabolisme"
+    ],
+    "facts": {
+      "Capacité": "Très augmentée",
+      "Échanges gazeux": "Optimisés",
+      "Lien": "Métabolisme réécrit"
+    },
+    "sections": [
+      {
+        "title": "Adaptation",
+        "text": "Les surfaces d’échange, la ventilation et le transport de l’oxygène sont coordonnés afin de soutenir les efforts prolongés et la thermorégulation."
+      }
+    ],
+    "relations": [
+      "biologie-excelsior",
+      "metabolisme-excelsior",
+      "thermoregulation-excelsior"
+    ],
+    "canonId": "GTS-TEC-0007",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "metabolisme-excelsior",
+    "category": "technologies",
+    "type": "Physiologie métabolique",
+    "title": "Métabolisme excelsior",
+    "summary": "Ensemble de voies énergétiques réécrites pour alimenter, réparer et stabiliser un organisme gigantesque.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "Métabolisme",
+      "Énergie"
+    ],
+    "facts": {
+      "État": "Réécrit",
+      "Objectif": "Efficacité et stabilité",
+      "Effet": "Longévité accrue"
+    },
+    "sections": [
+      {
+        "title": "Équilibre énergétique",
+        "text": "Le métabolisme privilégie l’efficacité, la récupération et la limitation des dommages cellulaires plutôt qu’une simple augmentation de l’apport calorique."
+      }
+    ],
+    "relations": [
+      "biologie-excelsior",
+      "longevite-excelsior",
+      "nutrition-excelsior"
+    ],
+    "canonId": "GTS-TEC-0008",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "thermoregulation-excelsior",
+    "category": "technologies",
+    "type": "Physiologie",
+    "title": "Thermorégulation excelsior",
+    "summary": "Mécanismes biologiques et environnementaux maintenant une température stable à l’échelle Homo excelsior.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "Climat",
+      "Santé"
+    ],
+    "facts": {
+      "Défi": "Dissipation thermique",
+      "Solutions": "Circulation, peau et infrastructures",
+      "Surveillance": "Continue"
+    },
+    "sections": [
+      {
+        "title": "Approche intégrée",
+        "text": "La régulation thermique dépend autant de la biologie réécrite que des résidences, vêtements et espaces climatisés des Districts Excelsior."
+      }
+    ],
+    "relations": [
+      "biologie-excelsior",
+      "districts-excelsior",
+      "mode-excelsior"
+    ],
+    "canonId": "GTS-TEC-0009",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "peau-tissus-excelsior",
+    "category": "technologies",
+    "type": "Physiologie",
+    "title": "Peau et tissus conjonctifs excelsior",
+    "summary": "Enveloppe corporelle renforcée assurant protection, élasticité et cohésion mécanique.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "Peau",
+      "Tissus"
+    ],
+    "facts": {
+      "Résistance": "Renforcée",
+      "Élasticité": "Adaptée à la croissance",
+      "Fonction": "Protection et cohésion"
+    },
+    "sections": [
+      {
+        "title": "Propriétés",
+        "text": "La peau et les tissus conjonctifs limitent les lésions liées aux contraintes, aux impacts mineurs et aux variations de volume pendant l’Ascension."
+      }
+    ],
+    "relations": [
+      "biologie-excelsior",
+      "gts-therapy"
+    ],
+    "canonId": "GTS-TEC-0010",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "biomateriaux-novagen",
+    "category": "technologies",
+    "type": "Biomatériaux",
+    "title": "Biomatériaux Novagen",
+    "summary": "Famille de matériaux biologiques rares employés dans la GTS Therapy, le suivi médical et les infrastructures excelsior.",
+    "year": 2048,
+    "tags": [
+      "Biomatériaux",
+      "Novagen",
+      "Industrie"
+    ],
+    "facts": {
+      "Disponibilité": "Rare",
+      "Production": "Réseau Novagen",
+      "Usages": "Biologie, médecine et structures"
+    },
+    "sections": [
+      {
+        "title": "Importance stratégique",
+        "text": "Leur rareté contribue à limiter le nombre annuel d’Ascensions et impose une chaîne de fabrication internationale strictement contrôlée."
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "squelette-excelsior",
+      "meridian",
+      "campus-novagen"
+    ],
+    "canonId": "GTS-TEC-0011",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "nutrition-excelsior",
+    "category": "concepts",
+    "type": "Nutrition",
+    "title": "Nutrition excelsior",
+    "summary": "Système alimentaire spécialisé répondant aux besoins métaboliques, médicaux et logistiques des Homo excelsior.",
+    "year": 2052,
+    "tags": [
+      "Nutrition",
+      "Logistique",
+      "Santé"
+    ],
+    "facts": {
+      "Approche": "Concentrée et personnalisée",
+      "Supervision": "Médicale",
+      "Infrastructure": "Chaînes dédiées"
+    },
+    "sections": [
+      {
+        "title": "Organisation",
+        "text": "La nutrition excelsior associe aliments à haute densité, programmes métaboliques individualisés et logistique urbaine adaptée."
+      }
+    ],
+    "relations": [
+      "metabolisme-excelsior",
+      "districts-excelsior",
+      "role-industriel-excelsior"
+    ],
+    "canonId": "GTS-CON-0008",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "phase-evaluation-ascension",
+    "category": "concepts",
+    "type": "Phase de l’Ascension",
+    "title": "Évaluation pré-Ascension",
+    "summary": "Étape scientifique, psychologique et institutionnelle précédant toute transformation.",
+    "year": 2050,
+    "tags": [
+      "Ascension",
+      "Sélection",
+      "Médecine"
+    ],
+    "facts": {
+      "Position": "Avant le protocole",
+      "Objet": "Éligibilité et sécurité",
+      "Décision": "Collégiale"
+    },
+    "sections": [
+      {
+        "title": "Évaluation",
+        "text": "La candidate fait l’objet d’une analyse médicale exhaustive et d’une validation de mérite, de consentement et de capacité à assumer les responsabilités futures."
+      }
+    ],
+    "relations": [
+      "ascension",
+      "selection-au-merite",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-CON-0009",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "phase-preparation-ascension",
+    "category": "concepts",
+    "type": "Phase de l’Ascension",
+    "title": "Préparation physiologique",
+    "summary": "Phase préparant l’organisme à la réécriture génétique et à la croissance contrôlée.",
+    "year": 2050,
+    "tags": [
+      "Ascension",
+      "Médecine",
+      "Préparation"
+    ],
+    "facts": {
+      "Position": "Début du protocole",
+      "But": "Réduire les risques",
+      "Durée": "Variable selon la candidate"
+    },
+    "sections": [
+      {
+        "title": "Préparation",
+        "text": "Elle stabilise les fonctions vitales, établit les références biométriques et prépare les tissus aux transformations successives."
+      }
+    ],
+    "relations": [
+      "ascension",
+      "phase-evaluation-ascension",
+      "phase-reecriture-biologique"
+    ],
+    "canonId": "GTS-CON-0010",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "phase-reecriture-biologique",
+    "category": "concepts",
+    "type": "Phase de l’Ascension",
+    "title": "Réécriture biologique",
+    "summary": "Cœur du protocole GTS, durant lequel les systèmes biologiques sont progressivement remplacés ou réorganisés.",
+    "year": 2050,
+    "tags": [
+      "Ascension",
+      "Génétique",
+      "Biologie"
+    ],
+    "facts": {
+      "Position": "Phase centrale",
+      "Méthode": "Transformation progressive",
+      "Contrôle": "IA médicale et équipes dédiées"
+    },
+    "sections": [
+      {
+        "title": "Progressivité",
+        "text": "La transformation est séquencée afin que chaque système reste compatible avec les changements déjà accomplis et ceux à venir."
+      }
+    ],
+    "relations": [
+      "gts-therapy",
+      "phase-preparation-ascension",
+      "phase-croissance-excelsior"
+    ],
+    "canonId": "GTS-CON-0011",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "phase-croissance-excelsior",
+    "category": "concepts",
+    "type": "Phase de l’Ascension",
+    "title": "Croissance excelsior contrôlée",
+    "summary": "Phase d’augmentation graduelle de la taille accompagnée d’une adaptation simultanée des organes et tissus.",
+    "year": 2050,
+    "tags": [
+      "Ascension",
+      "Croissance",
+      "Médecine"
+    ],
+    "facts": {
+      "Taille cible": "15 à 20 m",
+      "Mode": "Progressif",
+      "Surveillance": "Continue"
+    },
+    "sections": [
+      {
+        "title": "Contrôle",
+        "text": "La croissance ne peut être dissociée de la maturation du squelette, de la circulation, de la respiration et du métabolisme."
+      }
+    ],
+    "relations": [
+      "phase-reecriture-biologique",
+      "phase-stabilisation-ascension",
+      "biologie-excelsior"
+    ],
+    "canonId": "GTS-CON-0012",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "phase-stabilisation-ascension",
+    "category": "concepts",
+    "type": "Phase de l’Ascension",
+    "title": "Stabilisation post-croissance",
+    "summary": "Période finale durant laquelle la nouvelle physiologie atteint un équilibre durable.",
+    "year": 2050,
+    "tags": [
+      "Ascension",
+      "Stabilisation",
+      "Suivi"
+    ],
+    "facts": {
+      "Position": "Fin clinique",
+      "Objet": "Équilibre physiologique",
+      "Issue": "Autorisation de cérémonie"
+    },
+    "sections": [
+      {
+        "title": "Validation finale",
+        "text": "La candidate n’est déclarée Homo excelsior qu’après confirmation de la stabilité de ses systèmes vitaux et de son autonomie fonctionnelle."
+      }
+    ],
+    "relations": [
+      "phase-croissance-excelsior",
+      "ascension-ring",
+      "suivi-post-ascension"
+    ],
+    "canonId": "GTS-CON-0013",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "ceremonie-ascension",
+    "category": "concepts",
+    "type": "Cérémonie",
+    "title": "Cérémonie d’Ascension",
+    "summary": "Rituel public et institutionnel marquant l’achèvement du protocole et l’entrée officielle dans Homo excelsior.",
+    "year": 2050,
+    "tags": [
+      "Ascension",
+      "Cérémonie",
+      "Symbole"
+    ],
+    "facts": {
+      "Objet central": "Ascension Ring",
+      "Organisateur": "Novagen Institute",
+      "Portée": "Publique et diplomatique"
+    },
+    "sections": [
+      {
+        "title": "Signification",
+        "text": "La cérémonie célèbre le mérite tout en rappelant les responsabilités civiles, internationales et morales liées à l’Ascension."
+      }
+    ],
+    "relations": [
+      "ascension",
+      "ascension-ring",
+      "novagen-institute"
+    ],
+    "canonId": "GTS-CON-0014",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "suivi-post-ascension",
+    "category": "institutions",
+    "type": "Programme médical",
+    "title": "Suivi post-Ascension",
+    "summary": "Dispositif médical et scientifique permanent accompagnant chaque Homo excelsior après stabilisation.",
+    "year": 2050,
+    "tags": [
+      "Médecine",
+      "Novagen",
+      "Suivi"
+    ],
+    "facts": {
+      "Durée": "À vie",
+      "Responsable": "Novagen Institute",
+      "Domaines": "Santé, métabolisme et adaptation"
+    },
+    "sections": [
+      {
+        "title": "Objectifs",
+        "items": [
+          "Détecter les déséquilibres précoces",
+          "Adapter nutrition et activité",
+          "Documenter l’évolution à long terme",
+          "Améliorer les protocoles futurs"
+        ]
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "ascension",
+      "longevite-excelsior"
+    ],
+    "canonId": "GTS-INS-0005",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "ia-medicale-novagen",
+    "category": "technologies",
+    "type": "Intelligence artificielle médicale",
+    "title": "IA médicale Novagen",
+    "summary": "Systèmes d’intelligence artificielle supervisant les données biométriques et la coordination du protocole GTS.",
+    "year": 2049,
+    "tags": [
+      "IA",
+      "Médecine",
+      "Novagen"
+    ],
+    "facts": {
+      "Centre principal": "Boston",
+      "Rôle": "Aide à la décision clinique",
+      "Limite": "Supervision humaine obligatoire"
+    },
+    "sections": [
+      {
+        "title": "Fonction",
+        "text": "L’IA analyse en continu des volumes de données impossibles à traiter manuellement, sans remplacer la responsabilité médicale et institutionnelle."
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "genesis",
+      "gts-therapy",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-TEC-0012",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "nanobiologie-novagen",
+    "category": "technologies",
+    "type": "Nanobiologie",
+    "title": "Nanobiologie Novagen",
+    "summary": "Domaine spécialisé dans l’intervention et la surveillance biologique à l’échelle cellulaire.",
+    "year": 2049,
+    "tags": [
+      "Nanobiologie",
+      "Tokyo",
+      "Médecine"
+    ],
+    "facts": {
+      "Centre principal": "Tokyo",
+      "Usage": "Transformation et réparation ciblées",
+      "Réseau": "Campus Novagen"
+    },
+    "sections": [
+      {
+        "title": "Application",
+        "text": "La nanobiologie soutient la précision de la réécriture, la réparation tissulaire et la surveillance des interfaces entre systèmes biologiques."
+      }
+    ],
+    "relations": [
+      "takamagahara",
+      "campus-novagen",
+      "gts-therapy"
+    ],
+    "canonId": "GTS-TEC-0013",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "fabrication-biomedicale-novagen",
+    "category": "institutions",
+    "type": "Réseau industriel",
+    "title": "Fabrication biomédicale Novagen",
+    "summary": "Chaîne de production internationale fournissant biomatériaux, équipements et composants nécessaires aux Ascensions.",
+    "year": 2049,
+    "tags": [
+      "Industrie",
+      "Singapour",
+      "Novagen"
+    ],
+    "facts": {
+      "Centre principal": "Singapour",
+      "Production": "Biomatériaux et équipements",
+      "Sécurité": "Contrôle international"
+    },
+    "sections": [
+      {
+        "title": "Chaîne stratégique",
+        "text": "La fabrication est distribuée entre plusieurs sites afin de garantir qualité, traçabilité et résilience sans marchandiser l’accès à la thérapie."
+      }
+    ],
+    "relations": [
+      "meridian",
+      "biomateriaux-novagen",
+      "novagen-institute"
+    ],
+    "canonId": "GTS-INS-0006",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "medecine-clinique-novagen",
+    "category": "institutions",
+    "type": "Réseau clinique",
+    "title": "Médecine clinique Novagen",
+    "summary": "Branche clinique chargée des protocoles humains, de la stabilisation et du suivi à long terme.",
+    "year": 2049,
+    "tags": [
+      "Médecine",
+      "São Paulo",
+      "Novagen"
+    ],
+    "facts": {
+      "Centre principal": "São Paulo",
+      "Rôle": "Biologie clinique",
+      "Portée": "Réseau mondial"
+    },
+    "sections": [
+      {
+        "title": "Mission",
+        "text": "Elle transforme les découvertes fondamentales en protocoles sûrs et reproductibles pour les candidates et les patientes excelsior."
+      }
+    ],
+    "relations": [
+      "campus-novagen",
+      "suivi-post-ascension",
+      "gts-therapy"
+    ],
+    "canonId": "GTS-INS-0007",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "biomateriaux-ecologiques",
+    "category": "technologies",
+    "type": "Éco-biomatériaux",
+    "title": "Biomatériaux écologiques",
+    "summary": "Matériaux développés à Nairobi pour réduire l’impact écologique de la médecine et des infrastructures excelsior.",
+    "year": 2049,
+    "tags": [
+      "Nairobi",
+      "Écologie",
+      "Biomatériaux"
+    ],
+    "facts": {
+      "Centre principal": "Nairobi",
+      "Objectif": "Réduire l’empreinte environnementale",
+      "Usage": "Médecine et construction"
+    },
+    "sections": [
+      {
+        "title": "Enjeu",
+        "text": "La grande échelle des infrastructures impose des matériaux durables, réparables et compatibles avec les écosystèmes locaux."
+      }
+    ],
+    "relations": [
+      "campus-novagen",
+      "biomateriaux-novagen",
+      "districts-excelsior"
+    ],
+    "canonId": "GTS-TEC-0014",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "niveau-humain-district",
+    "category": "lieux",
+    "type": "Infrastructure urbaine",
+    "title": "Niveau humain des Districts",
+    "summary": "Couche urbaine conservant commerces, transports et services à l’échelle Homo sapiens.",
+    "year": 2053,
+    "tags": [
+      "Urbanisme",
+      "Coexistence",
+      "Districts"
+    ],
+    "facts": {
+      "Échelle": "Humaine",
+      "Accès": "Public ou réglementé",
+      "Fonction": "Services quotidiens"
+    },
+    "sections": [
+      {
+        "title": "Coexistence",
+        "text": "Ce niveau permet aux équipes humaines de travailler, circuler et habiter à proximité des installations excelsior sans perdre une échelle familière."
+      }
+    ],
+    "relations": [
+      "districts-excelsior",
+      "niveau-intermediaire-district"
+    ],
+    "canonId": "GTS-LOC-0009",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "niveau-intermediaire-district",
+    "category": "lieux",
+    "type": "Infrastructure urbaine",
+    "title": "Niveau intermédiaire des Districts",
+    "summary": "Couche logistique reliant les espaces humains aux équipements et circulations excelsior.",
+    "year": 2053,
+    "tags": [
+      "Urbanisme",
+      "Logistique",
+      "Districts"
+    ],
+    "facts": {
+      "Échelle": "Intermédiaire",
+      "Fonction": "Transfert, maintenance et services",
+      "Accès": "Personnel autorisé"
+    },
+    "sections": [
+      {
+        "title": "Interface",
+        "text": "Ascenseurs, plateformes, entrepôts et réseaux techniques y assurent le passage entre les deux échelles urbaines."
+      }
+    ],
+    "relations": [
+      "niveau-humain-district",
+      "niveau-excelsior-district",
+      "districts-excelsior"
+    ],
+    "canonId": "GTS-LOC-0010",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "niveau-excelsior-district",
+    "category": "lieux",
+    "type": "Infrastructure urbaine",
+    "title": "Niveau excelsior des Districts",
+    "summary": "Couche monumentale composée de boulevards, résidences, institutions et parcs adaptés aux Homo excelsior.",
+    "year": 2053,
+    "tags": [
+      "Urbanisme",
+      "Homo excelsior",
+      "Districts"
+    ],
+    "facts": {
+      "Échelle": "15 à 20 m",
+      "Éléments": "Boulevards, palais, parcs et institutions",
+      "Accès": "Résidentes et services autorisés"
+    },
+    "sections": [
+      {
+        "title": "Forme urbaine",
+        "text": "Les distances, rayons de giration, hauteurs et capacités des réseaux sont dimensionnés dès l’origine pour la mobilité excelsior."
+      }
+    ],
+    "relations": [
+      "niveau-intermediaire-district",
+      "districts-excelsior",
+      "residences-excelsior"
+    ],
+    "canonId": "GTS-LOC-0011",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "residences-excelsior",
+    "category": "lieux",
+    "type": "Habitat",
+    "title": "Résidences excelsior",
+    "summary": "Habitations monumentales réunissant vie privée, réception, santé, travail et espaces extérieurs.",
+    "year": 2053,
+    "tags": [
+      "Habitat",
+      "Architecture",
+      "Districts"
+    ],
+    "facts": {
+      "Équipements": "Suite médicale, ateliers, jardins et réception",
+      "Échelle": "Excelsior",
+      "Localisation": "Districts dédiés"
+    },
+    "sections": [
+      {
+        "title": "Programme architectural",
+        "text": "La résidence est pensée comme un domaine complet afin de limiter les déplacements contraints tout en permettant une vie sociale et professionnelle ouverte."
+      }
+    ],
+    "relations": [
+      "niveau-excelsior-district",
+      "districts-excelsior",
+      "architecture-excelsior"
+    ],
+    "canonId": "GTS-LOC-0012",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "architecture-excelsior",
+    "category": "concepts",
+    "type": "Architecture",
+    "title": "Architecture excelsior",
+    "summary": "Discipline architecturale née pour concevoir bâtiments, paysages et réseaux adaptés aux Homo excelsior.",
+    "year": 2053,
+    "tags": [
+      "Architecture",
+      "Ingénierie",
+      "Urbanisme"
+    ],
+    "facts": {
+      "Échelle": "Monumentale",
+      "Approche": "Coexistence multi-échelle",
+      "Secteur": "Nouvelle industrie majeure"
+    },
+    "sections": [
+      {
+        "title": "Principes",
+        "items": [
+          "Circulations très larges",
+          "Charges structurelles extrêmes",
+          "Interfaces humain-excelsior",
+          "Maintenance robotisée",
+          "Intégration paysagère"
+        ]
+      }
+    ],
+    "relations": [
+      "districts-excelsior",
+      "residences-excelsior",
+      "role-industriel-excelsior"
+    ],
+    "canonId": "GTS-CON-0015",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "mobilite-excelsior",
+    "category": "concepts",
+    "type": "Mobilité",
+    "title": "Mobilité excelsior",
+    "summary": "Organisation des déplacements des Homo excelsior à l’intérieur des districts et lors de visites urbaines planifiées.",
+    "year": 2053,
+    "tags": [
+      "Mobilité",
+      "Urbanisme",
+      "Logistique"
+    ],
+    "facts": {
+      "Déplacements courants": "À pied dans les districts",
+      "Visites urbaines": "Planifiées",
+      "Contraintes": "Sécurité et infrastructure"
+    },
+    "sections": [
+      {
+        "title": "Coexistence",
+        "text": "Les accès aux centres humains sont préparés par des itinéraires, horaires et périmètres adaptés afin de préserver la fluidité et la sécurité."
+      }
+    ],
+    "relations": [
+      "districts-excelsior",
+      "niveau-excelsior-district"
+    ],
+    "canonId": "GTS-CON-0016",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "medecine-excelsior",
+    "category": "institutions",
+    "type": "Système de santé",
+    "title": "Médecine excelsior",
+    "summary": "Réseau médical spécialisé dans la physiologie, la prévention et les urgences propres aux Homo excelsior.",
+    "year": 2052,
+    "tags": [
+      "Médecine",
+      "Santé",
+      "Infrastructure"
+    ],
+    "facts": {
+      "Échelle": "Excelsior",
+      "Coordination": "Novagen et centres locaux",
+      "Priorité": "Prévention"
+    },
+    "sections": [
+      {
+        "title": "Spécialités",
+        "items": [
+          "Cardiologie multichambre",
+          "Métabolisme excelsior",
+          "Traumatologie monumentale",
+          "Imagerie à grande échelle",
+          "Médecine reproductive et ectogenèse"
+        ]
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "suivi-post-ascension",
+      "districts-excelsior"
+    ],
+    "canonId": "GTS-INS-0008",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "logistique-excelsior",
+    "category": "concepts",
+    "type": "Logistique",
+    "title": "Logistique excelsior",
+    "summary": "Réseaux d’approvisionnement, de maintenance et de transport conçus pour les besoins d’une population gigantesque mais peu nombreuse.",
+    "year": 2053,
+    "tags": [
+      "Logistique",
+      "Industrie",
+      "Districts"
+    ],
+    "facts": {
+      "Principe": "Flux spécialisés",
+      "Échelle": "Multi-niveaux",
+      "Priorité": "Fiabilité"
+    },
+    "sections": [
+      {
+        "title": "Organisation",
+        "text": "La logistique combine livraisons massives, stockage automatisé, plateformes intermédiaires et distribution finale à l’échelle des résidentes."
+      }
+    ],
+    "relations": [
+      "districts-excelsior",
+      "nutrition-excelsior",
+      "role-industriel-excelsior"
+    ],
+    "canonId": "GTS-CON-0017",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "mode-excelsior",
+    "category": "concepts",
+    "type": "Mode",
+    "title": "Mode excelsior",
+    "summary": "Industrie vestimentaire et culturelle développée pour des corps, usages et codes esthétiques à l’échelle Homo excelsior.",
+    "year": 2055,
+    "tags": [
+      "Mode",
+      "Luxe",
+      "Industrie"
+    ],
+    "facts": {
+      "Contraintes": "Matières, couture et mobilité",
+      "Marché": "Très spécialisé",
+      "Figure majeure": "Rahimi Atelier"
+    },
+    "sections": [
+      {
+        "title": "Innovation",
+        "text": "La mode excelsior mobilise matériaux techniques, ateliers monumentaux et nouvelles méthodes de coupe, tout en conservant une forte dimension symbolique et culturelle."
+      }
+    ],
+    "relations": [
+      "rahimi-atelier",
+      "role-industriel-excelsior",
+      "thermoregulation-excelsior"
+    ],
+    "canonId": "GTS-CON-0018",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "prestige-ascension",
+    "category": "concepts",
+    "type": "Société",
+    "title": "Prestige de l’Ascension",
+    "summary": "Ordre symbolique mondial dans lequel l’Ascension constitue la distinction la plus élevée accordée à une personne.",
+    "year": 2051,
+    "tags": [
+      "Société",
+      "Prestige",
+      "Mérite"
+    ],
+    "facts": {
+      "Position": "Au-dessus des distinctions traditionnelles",
+      "Fondement": "Mérite exceptionnel",
+      "Hérédité": "Aucune"
+    },
+    "sections": [
+      {
+        "title": "Nouvelle aristocratie",
+        "text": "Le prestige des Homo excelsior repose sur l’accomplissement reconnu, non sur la richesse ou la naissance. Il produit une nouvelle aristocratie symbolique sans transmission automatique."
+      }
+    ],
+    "relations": [
+      "selection-au-merite",
+      "homo-excelsior",
+      "responsabilites-excelsior"
+    ],
+    "canonId": "GTS-CON-0019",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "responsabilites-excelsior",
+    "category": "concepts",
+    "type": "Éthique publique",
+    "title": "Responsabilités des Homo excelsior",
+    "summary": "Ensemble d’attentes morales, civiques et internationales accompagnant le privilège de l’Ascension.",
+    "year": 2051,
+    "tags": [
+      "Éthique",
+      "Société",
+      "Ascension"
+    ],
+    "facts": {
+      "Principe": "Prestige contre responsabilité",
+      "Statut": "Citoyennes libres",
+      "Domaines": "Civil, diplomatique et humanitaire"
+    },
+    "sections": [
+      {
+        "title": "Attentes",
+        "items": [
+          "Exemplarité publique",
+          "Respect des normes internationales",
+          "Contribution à la société",
+          "Coopération en situation de crise",
+          "Protection de l’autonomie personnelle"
+        ]
+      }
+    ],
+    "relations": [
+      "prestige-ascension",
+      "role-strategique-excelsior",
+      "normes-internationales-excelsior"
+    ],
+    "canonId": "GTS-CON-0020",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "incompatibilite-masculine-gts",
+    "category": "concepts",
+    "type": "Limite biologique",
+    "title": "Incompatibilité masculine de la GTS Therapy",
+    "summary": "Incompatibilité persistante entre la physiologie masculine et le protocole d’Ascension.",
+    "year": 2050,
+    "tags": [
+      "Biologie",
+      "GTS Therapy",
+      "Limite"
+    ],
+    "facts": {
+      "Compatibilité": "Femmes uniquement",
+      "Recherche": "Poursuivie pendant des décennies",
+      "Résultat en 2075": "Aucune solution viable"
+    },
+    "sections": [
+      {
+        "title": "État scientifique",
+        "text": "Malgré des recherches continues, les mécanismes hormonaux, génétiques et systémiques nécessaires à une Ascension masculine n’ont jamais pu être stabilisés."
+      }
+    ],
+    "relations": [
+      "gts-therapy",
+      "homo-excelsior",
+      "conseil-des-fondateurs"
+    ],
+    "canonId": "GTS-CON-0021",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "limitation-annuelle-ascensions",
+    "category": "concepts",
+    "type": "Politique scientifique",
+    "title": "Limitation annuelle des Ascensions",
+    "summary": "Politique Novagen plafonnant volontairement le nombre de nouvelles Homo excelsior chaque année.",
+    "year": 2051,
+    "tags": [
+      "Gouvernance",
+      "Démographie",
+      "Novagen"
+    ],
+    "facts": {
+      "Motifs": "Sécurité, ressources et équilibre mondial",
+      "Autorité": "Novagen et Conseil",
+      "Effet": "Croissance démographique lente"
+    },
+    "sections": [
+      {
+        "title": "Raisons",
+        "items": [
+          "Capacité clinique limitée",
+          "Rareté des biomatériaux",
+          "Suivi à vie",
+          "Équilibre géopolitique",
+          "Préservation de la qualité scientifique"
+        ]
+      }
+    ],
+    "relations": [
+      "novagen-institute",
+      "demographie-excelsior",
+      "selection-au-merite"
+    ],
+    "canonId": "GTS-CON-0022",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
+  },
+  {
+    "id": "citoyennete-excelsior",
+    "category": "concepts",
+    "type": "Droit",
+    "title": "Citoyenneté des Homo excelsior",
+    "summary": "Principe selon lequel les Homo excelsior restent des personnes libres dotées de droits, devoirs et affiliations choisies.",
+    "year": 2051,
+    "tags": [
+      "Droit",
+      "Citoyenneté",
+      "Liberté"
+    ],
+    "facts": {
+      "Statut": "Citoyennes libres",
+      "Affiliations": "Choisies",
+      "Propriété étatique": "Interdite"
+    },
+    "sections": [
+      {
+        "title": "Autonomie",
+        "text": "Ni Novagen ni un État ne peut posséder une Homo excelsior. Les engagements militaires, diplomatiques ou industriels relèvent d’accords et de choix personnels encadrés."
+      }
+    ],
+    "relations": [
+      "normes-internationales-excelsior",
+      "role-strategique-excelsior",
+      "responsabilites-excelsior"
+    ],
+    "canonId": "GTS-CON-0023",
+    "status": "canon",
+    "aliases": [],
+    "source": "GTS Canon",
+    "updated": "2075-07-20"
   }
 ];
 
 window.GTS_SCHEMA = {
-  "version": "1.5.0-lot1",
+  "version": "1.6.0-b1",
   "required": [
     "canonId",
     "id",
