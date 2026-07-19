@@ -1,20 +1,16 @@
-# GTS Encyclopedia — Sprint C2 v1.9.0
+# GTS Encyclopedia — Sprint C3 v2.0.0
 
-## Master Entry : Anahita Rahimi
+Fiche intégrale d’Anahita Rahimi et gabarit officiel `personnage-geante-v2`.
 
-Cette version transforme la fiche d’Anahita Rahimi en modèle premium réutilisable pour les futures fiches de personnages géants.
+## Contenu réellement implémenté
+- identité et état civil complets ;
+- naissance le 3 décembre 2048 et signe Sagittaire ;
+- profil biologique, famille, formation, carrière et distinctions ;
+- 19 sections encyclopédiques ;
+- chronologie personnelle ;
+- six emplacements de galerie ;
+- relations canoniques cliquables ;
+- métadonnées et indicateur de version ;
+- cache-busting sur `styles.css`, `data.js` et `app.js`.
 
-### Implémenté
-
-- Hero éditorial avec identité, citation et badges canoniques.
-- Tableau de bord synthétique.
-- Infobox complète : état civil, biologie, carrière, formation, résidences et affiliations.
-- Sommaire interne.
-- Biographie détaillée et sections thématiques.
-- Chronologie personnelle graphique.
-- Galerie prête à accueillir des illustrations officielles.
-- Relations canoniques cliquables.
-- Métadonnées et gabarit `personnage-geante-v1`.
-- Affichage responsive ordinateur, tablette et mobile.
-
-Les autres fiches conservent leur rendu existant. Le nouveau moteur premium est activé uniquement lorsque la donnée contient `template: "personnage-geante-v1"`.
+Déployer les six fichiers à la racine du dépôt GitHub Pages.

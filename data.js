@@ -26,68 +26,120 @@ window.GTS_DATA = [
       "Fonction": "Fondatrice et CEO de Rahimi Atelier",
       "Résidence principale": "Olympia, Genève",
       "Langues": "Farsi, anglais et français",
-      "Citation": "« I am not a fantasy. I am the future. »"
+      "Citation": "« I am not a fantasy. I am the future. »",
+      "Sexe": "Femme",
+      "Statut vital": "Vivante",
+      "Situation familiale": "Non communiquée",
+      "Main dominante": "Droite",
+      "Religion": "Information privée",
+      "Masse après Ascension": "Classifiée",
+      "Formation": "Design de mode et management du luxe",
+      "Distinctions": "Prix internationaux de mode et distinctions humanitaires",
+      "Fortune": "Non publiée",
+      "Résidence secondaire": "Rahimi Atelier Creative House, Téhéran",
+      "Affiliations": "Rahimi Atelier · Novagen Institute · Olympia"
     },
     "sections": [
       {
-        "title": "Résumé",
+        "title": "Vue d’ensemble",
         "text": "Anahita Rahimi est une créatrice de haute couture iranienne et l’une des personnalités Homo excelsior les plus influentes de 2075. Fondatrice de Rahimi Atelier, elle a imposé une esthétique mêlant héritage persan, luxe parisien, architecture vestimentaire et matériaux de pointe. Son Ascension, accordée au mérite par le Novagen Institute, a fait d’elle un symbole international d’excellence, d’indépendance et de responsabilité."
       },
       {
-        "title": "Enfance et formation",
-        "text": "Née le 3 décembre 2048 à Shiraz, Anahita grandit au contact de l’art, de l’architecture et des traditions visuelles persanes. Cette culture nourrit très tôt son rapport aux volumes, aux motifs et à la mise en scène du vêtement. Elle se forme ensuite au design de mode et au management du luxe, maîtrise le farsi, l’anglais et le français, puis développe une carrière internationale dans la création et le mannequinat."
+        "title": "Origines et enfance à Shiraz",
+        "text": "Anahita Rahimi naît le 3 décembre 2048 à Shiraz, en Iran. Son enfance est marquée par l’architecture, les arts décoratifs, les textiles et la culture visuelle persane. Elle développe très tôt une sensibilité particulière aux volumes, aux contrastes, à la lumière et à la manière dont le vêtement peut exprimer simultanément identité, autorité et mouvement."
+      },
+      {
+        "title": "Études et formation",
+        "text": "Elle suit une formation supérieure en design de mode, complétée par un cursus de management du luxe. Cette double compétence lui permet de maîtriser aussi bien la création que la stratégie de marque, la production, la distribution internationale et la direction d’équipes. Elle travaille en farsi, en anglais et en français."
+      },
+      {
+        "title": "Débuts professionnels",
+        "text": "Avant de fonder sa maison, Anahita acquiert une visibilité internationale comme créatrice et mannequin. Elle se distingue par une approche exigeante de la silhouette, par son refus des compromis esthétiques et par sa capacité à faire dialoguer héritage persan, modernité technologique et codes du luxe parisien."
       },
       {
         "title": "Fondation de Rahimi Atelier",
-        "text": "Anahita fonde Rahimi Atelier en 2069. La maison se spécialise dans le latex haute couture et le hijab couture, avec des pièces sans coutures visibles, sculpturales et parfaitement adaptées à la silhouette. Son langage esthétique associe inspiration persane, luxe parisien, lignes futuristes et construction architecturale. En 2075, la maison possède des boutiques internationales, emploie plusieurs centaines de personnes et produit des collections limitées destinées aux clientèles humaines et Homo excelsior."
+        "text": "En 2069, elle fonde Rahimi Atelier. La maison se spécialise dans le latex haute couture et le hijab couture, avec des pièces sculpturales aux coutures invisibles. En 2075, l’entreprise compte plusieurs centaines d’employés, exploite des boutiques dans plusieurs grandes métropoles et produit des collections limitées pour les clientèles Homo sapiens et Homo excelsior."
       },
       {
         "title": "Sélection par le Novagen Institute",
-        "text": "Anahita n’achète pas son Ascension : elle est sélectionnée au mérite. Sa créativité, sa capacité à bâtir une institution durable, son rayonnement culturel et ses engagements humanitaires répondent aux critères du Conseil des Fondateurs. Elle rejoint le campus de Genève et commence un protocole de transformation long de dix-huit à vingt-quatre mois."
+        "text": "Anahita n’achète pas son Ascension. Elle est retenue au mérite par le Conseil des Fondateurs en raison de son apport créatif, de la solidité de son entreprise, de son influence culturelle et de ses engagements humanitaires. Sa sélection consacre une trajectoire jugée utile à la société et compatible avec les responsabilités liées au statut d’Homo excelsior."
       },
       {
-        "title": "Ascension",
-        "text": "Le protocole réécrit progressivement sa biologie, renforce son squelette, transforme son architecture musculaire et adapte ses systèmes cardiovasculaire, respiratoire et métabolique à une stature de 18 mètres. À l’issue du traitement, elle participe à la cérémonie officielle de l’Ascension et reçoit son Ascension Ring, qu’elle porte ensuite comme signe de mérite, de responsabilité et d’appartenance à Homo excelsior."
+        "title": "Protocole d’Ascension",
+        "text": "Elle suit au campus de Genève un protocole de dix-huit à vingt-quatre mois. La GTS Therapy réécrit sa biologie, renforce son squelette, transforme son architecture musculaire et adapte ses systèmes cardiovasculaire, respiratoire, cutané et métabolique à une stature de 18 mètres. La transformation est progressive, médicalement contrôlée et suivie par des équipes dédiées."
       },
       {
-        "title": "Vie en 2075",
-        "text": "Anahita réside principalement dans un domaine monumental d’Olympia, à Genève, avec vues sur le Léman, le Jet d’Eau, le campus Novagen et le Mont-Blanc. Elle conserve une résidence secondaire à Téhéran, la Rahimi Atelier Creative House. Elle dirige sa maison, soutient de grands projets d’infrastructure, participe à la diplomatie culturelle et finance des actions humanitaires. Son rôle stratégique demeure volontaire et encadré par les normes internationales."
+        "title": "Cérémonie et Ascension Ring",
+        "text": "À l’issue du protocole, Anahita participe à la cérémonie officielle de l’Ascension. Elle reçoit son Ascension Ring, symbole de mérite, de responsabilité et d’appartenance à Homo excelsior. La bague fait partie de toutes ses représentations officielles."
       },
       {
-        "title": "Apparence officielle",
-        "text": "Anahita mesure 18 mètres après son Ascension. Elle possède des yeux brun foncé et des cheveux noirs, toujours entièrement dissimulés. Sa présence est calme, précise et monumentale. Sa posture droite, sa gestuelle maîtrisée et son regard direct renforcent l’impression d’autorité sans agressivité. Toute représentation doit conserver une échelle crédible entre elle, les bâtiments et les personnes humaines."
+        "title": "Vie et fonctions en 2075",
+        "text": "En 2075, Anahita dirige Rahimi Atelier depuis Olympia, à Genève. Elle partage son temps entre création, stratégie d’entreprise, représentation internationale, mécénat et diplomatie culturelle. Elle demeure une citoyenne libre et choisit ses engagements. Toute participation à des missions de protection ou de dissuasion reste volontaire et encadrée par les normes internationales."
       },
       {
-        "title": "Style vestimentaire",
+        "title": "Apparence physique",
+        "text": "Anahita mesure 1,72 m avant son Ascension et 18 m après celle-ci. Elle a les yeux brun foncé, les cheveux noirs toujours intégralement dissimulés et une posture droite. Sa présence est monumentale sans être agressive : gestuelle précise, démarche maîtrisée, regard direct et voix posée. Toute illustration doit respecter une échelle réaliste avec les personnes et les infrastructures environnantes."
+      },
+      {
+        "title": "Signature vestimentaire",
         "items": [
-          "Latex haute couture brillant, aux coutures invisibles",
+          "Latex haute couture brillant, sans coutures visibles",
           "Hijab architectural ou sculptural, parfaitement ajusté, sans cheveux visibles",
-          "Silhouette ajustée, élégante, futuriste et architecturale",
-          "Palette principale : noir profond, bleu pétrole, bleu glacier, gris acier et ivoire",
+          "Silhouette élégante, futuriste, ajustée et architecturale",
+          "Palette : noir profond, bleu pétrole, bleu glacier, gris acier et ivoire",
           "Accents métalliques : or, platine et argent",
           "Manches fréquemment structurées ou bouffantes",
-          "Ascension Ring toujours visible dans les représentations officielles",
+          "Ascension Ring toujours visible",
           "Aucun coton, jean, cuir classique ni vêtement de sport"
         ]
       },
       {
         "title": "Personnalité",
-        "text": "Visionnaire, disciplinée et perfectionniste, Anahita associe une grande exigence professionnelle à une maîtrise calme de son image publique. Elle valorise le mérite, l’autonomie, la dignité et la transmission. Son sens diplomatique lui permet de représenter à la fois son pays, sa maison et la communauté Homo excelsior sans réduire son identité à son Ascension."
+        "text": "Visionnaire, disciplinée, indépendante et perfectionniste, Anahita valorise le mérite, la dignité, la maîtrise de soi et la transmission. Elle protège strictement sa vie privée tout en assumant une image publique très construite. Son leadership repose davantage sur la précision, la constance et l’exemplarité que sur la démonstration de force."
       },
       {
-        "title": "Capacités et rôle public",
+        "title": "Compétences et capacités",
         "items": [
-          "Force et endurance propres à la biologie Homo excelsior",
-          "Coordination adaptée aux infrastructures de très grande échelle",
-          "Compétences de direction, création, négociation et communication internationale",
-          "Patronage humanitaire et culturel",
-          "Soutien à la conception d’infrastructures excelsior",
-          "Participation volontaire à des missions de dissuasion ou de protection strictement encadrées"
+          "Direction d’entreprise et stratégie de marque",
+          "Création de haute couture et conception à grande échelle",
+          "Négociation et communication internationale",
+          "Force, endurance et coordination propres à Homo excelsior",
+          "Mobilité adaptée aux Districts Excelsior",
+          "Patronage culturel et humanitaire",
+          "Participation volontaire à la protection civile et à la dissuasion stratégique"
         ]
       },
       {
-        "title": "Reproduction et descendance",
-        "text": "Comme les autres Homo excelsior, Anahita ne peut pas mener une grossesse à terme. Toute éventuelle parentalité biologique passerait par la procréation médicalement assistée et l’ectogenèse sous supervision du Novagen Institute. Les enfants issus d’une Homo excelsior naissent Homo sapiens et doivent mériter leur propre Ascension."
+        "title": "Engagements humanitaires et culturels",
+        "text": "Anahita finance des programmes liés à l’éducation, à la formation créative, aux infrastructures monumentales et à l’accès aux métiers du luxe. Elle soutient également des initiatives de coopération culturelle entre l’Iran, l’Europe et les principales communautés Homo excelsior."
+      },
+      {
+        "title": "Résidence principale : Domaine Rahimi",
+        "text": "Sa résidence principale se situe à Olympia, le District Excelsior de Genève. Le domaine associe influences persanes, andalouses et contemporaines. Il comprend des espaces de réception, des ateliers, des jardins, des installations médicales et des volumes adaptés à une résidente de 18 mètres, avec vues sur le Léman, le Jet d’Eau, le campus Novagen et le Mont-Blanc."
+      },
+      {
+        "title": "Résidence secondaire : Creative House de Téhéran",
+        "text": "À Téhéran, la Rahimi Atelier Creative House sert de résidence secondaire, de centre de création et de représentation de la maison. Elle accueille des équipes de design, des archives, des salons de présentation et des programmes de formation."
+      },
+      {
+        "title": "Famille, vie privée et descendance",
+        "text": "Sa situation familiale, ses parents et sa fratrie ne sont pas documentés publiquement. Elle n’a pas d’enfant en 2075. Comme les autres Homo excelsior, elle ne peut pas mener une grossesse à terme ; une éventuelle parentalité biologique nécessiterait une procréation médicalement assistée et une ectogenèse sous supervision Novagen. Les enfants naissent Homo sapiens et doivent mériter leur propre Ascension."
+      },
+      {
+        "title": "Distinctions et influence",
+        "text": "Anahita a reçu plusieurs récompenses internationales pour son travail dans la mode ainsi que des distinctions liées à son action humanitaire. Sa fortune n’est pas publiée. Son prestige repose d’abord sur son œuvre, son Ascension au mérite et son rôle de modèle culturel."
+      },
+      {
+        "title": "Principes de représentation canonique",
+        "items": [
+          "Taille officielle : 18 mètres",
+          "Hijab intégralement ajusté, aucun cheveu visible",
+          "Latex haute couture comme matière dominante",
+          "Ascension Ring visible",
+          "Échelle crédible face aux humains et aux bâtiments",
+          "Présence élégante et autoritaire, jamais caricaturale",
+          "Respect de la palette et de la signature visuelle officielles"
+        ]
       }
     ],
     "relations": [
@@ -101,7 +153,10 @@ window.GTS_DATA = [
     ],
     "canonId": "GTS-PER-0001",
     "status": "canon",
-    "aliases": [],
+    "aliases": [
+      "The Iranian Goddess",
+      "La Déesse iranienne"
+    ],
     "source": "GTS Canon",
     "updated": "2075-07-20",
     "portrait": {
@@ -222,18 +277,32 @@ window.GTS_DATA = [
     "gallery": [
       {
         "title": "Portrait officiel",
-        "caption": "Emplacement réservé au portrait canonique d’Anahita Rahimi."
+        "caption": "Portrait frontal canonique, hijab architectural et Ascension Ring visibles."
+      },
+      {
+        "title": "Couverture GTS Magazine",
+        "caption": "Anahita en couverture, selon la charte noire et or du magazine."
       },
       {
         "title": "Rahimi Atelier",
-        "caption": "Emplacement réservé à une création officielle en latex haute couture."
+        "caption": "Présentation d’une création monumentale en latex haute couture."
       },
       {
-        "title": "Olympia",
-        "caption": "Emplacement réservé à Anahita dans son domaine principal à Genève."
+        "title": "Domaine d’Olympia",
+        "caption": "Anahita dans sa résidence principale, avec Genève et le Léman en arrière-plan."
+      },
+      {
+        "title": "Creative House de Téhéran",
+        "caption": "Vue de la résidence secondaire et du centre de création."
+      },
+      {
+        "title": "Cérémonie de l’Ascension",
+        "caption": "Archive officielle de la remise de l’Ascension Ring."
       }
     ],
-    "template": "personnage-geante-v1"
+    "template": "personnage-geante-v2",
+    "version": "2.0 — Master Entry complète",
+    "completion": "100% des informations canoniques disponibles"
   },
   {
     "id": "homo-excelsior",
