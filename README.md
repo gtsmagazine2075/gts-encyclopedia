@@ -13,3 +13,8 @@ Fonctionnalités réellement ajoutées :
 - export JSON A4.
 
 Déploiement : envoyer tous les fichiers à la racine du dépôt GitHub Pages.
+
+
+## Sprint A5
+- Base des relations préparée.
+- Liens entre fiches via champ `relations`.
